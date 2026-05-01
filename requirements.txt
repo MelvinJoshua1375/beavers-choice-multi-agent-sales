@@ -1,0 +1,13 @@
+pandas==2.2.3
+numpy>=1.26
+typing==3.7.4.3
+openai==1.76.0
+SQLAlchemy==2.0.40
+python-dotenv==1.1.0
+
+# Multi-agent system
+smolagents>=1.24
+
+# Stand-out: terminal animation + workflow diagram rendering
+colorama>=0.4
+matplotlib>=3.7

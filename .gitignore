@@ -1,0 +1,22 @@
+# Secrets
+.env
+.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# SQLite database (re-generated on every run)
+munder_difflin.db
+
+# Jupyter (in case the user opens the script in a notebook)
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

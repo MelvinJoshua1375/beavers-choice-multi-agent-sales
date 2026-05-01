@@ -1,0 +1,488 @@
+══════════════════════════════════════════════════════════════════════════════
+ Request 1/20  ·  2025-04-01  ·  office manager → ceremony
+══════════════════════════════════════════════════════════════════════════════
+  customer → orchestrator → [inventory · quoting · sales] → advisor*
+
+Cash before:      $45,059.70
+Inventory before: $4,940.30
+
+Response:
+Hello! Here is the quote for your ceremony order (request received 2025-04-01):
+
+  · 200 × Glossy paper @ $0.20/unit = $40.00, less 2% bulk discount = $39.20
+  · 100 × Cardstock @ $0.15/unit = $15.00, less 2% bulk discount = $14.70
+  · 100 × Colored paper @ $0.10/unit = $10.00, less 2% bulk discount = $9.80
+
+Items requiring follow-up:
+  · 15 × 2025: not in our catalogue.
+
+Quoted total (after bulk discounts): $63.70.
+Earliest delivery commitment: 2025-04-05.
+
+Quote rationale: pricing is computed from our published unit rates with a tiered bulk-discount ladder (2% from 100 units, scaling up to 15% at 10,000+ units). Where stock is insufficient we have already placed supplier restocks so we can honour the order on the listed ETA.
+
+Cash after:       $45,123.40  (Δ $+63.70)
+Inventory after:  $4,875.30
+
+══════════════════════════════════════════════════════════════════════════════
+ Request 2/20  ·  2025-04-03  ·  hotel manager → parade
+══════════════════════════════════════════════════════════════════════════════
+  customer → orchestrator → [inventory · quoting · sales] → advisor*
+
+Cash before:      $45,123.40
+Inventory before: $4,875.30
+
+Response:
+Hello! Here is the quote for your parade order (request received 2025-04-03):
+
+
+Items requiring follow-up:
+  · 500 × Poster paper: out of stock; placed a supplier restock (+500 units, ETA 2025-04-07).
+
+Quoted total (after bulk discounts): $0.00.
+Earliest delivery commitment: n/a.
+
+Quote rationale: pricing is computed from our published unit rates with a tiered bulk-discount ladder (2% from 100 units, scaling up to 15% at 10,000+ units). Where stock is insufficient we have already placed supplier restocks so we can honour the order on the listed ETA.
+
+Cash after:       $44,998.40  (Δ $-125.00)
+Inventory after:  $4,875.30
+
+══════════════════════════════════════════════════════════════════════════════
+ Request 3/20  ·  2025-04-04  ·  school board resouorce manager → conference
+══════════════════════════════════════════════════════════════════════════════
+  customer → orchestrator → [inventory · quoting · sales] → advisor*
+
+Cash before:      $44,998.40
+Inventory before: $4,875.30
+
+Response:
+Hello! Here is the quote for your conference order (request received 2025-04-04):
+
+
+Items requiring follow-up:
+  · 10000 × A4 paper: only 272 in stock; placed restock for 9728 more (ETA 2025-04-11).
+
+Quoted total (after bulk discounts): $0.00.
+Earliest delivery commitment: n/a.
+
+Quote rationale: pricing is computed from our published unit rates with a tiered bulk-discount ladder (2% from 100 units, scaling up to 15% at 10,000+ units). Where stock is insufficient we have already placed supplier restocks so we can honour the order on the listed ETA.
+
+Cash after:       $44,512.00  (Δ $-486.40)
+Inventory after:  $5,361.70
+
+══════════════════════════════════════════════════════════════════════════════
+ Request 4/20  ·  2025-04-05  ·  non-profit director → reception
+══════════════════════════════════════════════════════════════════════════════
+  customer → orchestrator → [inventory · quoting · sales] → advisor*
+
+Cash before:      $44,512.00
+Inventory before: $5,361.70
+
+Response:
+Hello! Here is the quote for your reception order (request received 2025-04-05):
+
+
+Items requiring follow-up:
+  · 500 × high-quality: not in our catalogue.
+
+Quoted total (after bulk discounts): $0.00.
+Earliest delivery commitment: n/a.
+
+Quote rationale: pricing is computed from our published unit rates with a tiered bulk-discount ladder (2% from 100 units, scaling up to 15% at 10,000+ units). Where stock is insufficient we have already placed supplier restocks so we can honour the order on the listed ETA.
+
+Cash after:       $44,512.00  (Δ $+0.00)
+Inventory after:  $5,361.70
+
+══════════════════════════════════════════════════════════════════════════════
+ Request 5/20  ·  2025-04-05  ·  school teacher → party
+══════════════════════════════════════════════════════════════════════════════
+  customer → orchestrator → [inventory · quoting · sales] → advisor*
+
+Cash before:      $44,512.00
+Inventory before: $5,361.70
+
+Response:
+Hello! Here is the quote for your party order (request received 2025-04-05):
+
+  · 500 × Colored paper @ $0.10/unit = $50.00, less 5% bulk discount = $47.50
+
+Quoted total (after bulk discounts): $47.50.
+Earliest delivery commitment: 2025-04-09.
+
+Quote rationale: pricing is computed from our published unit rates with a tiered bulk-discount ladder (2% from 100 units, scaling up to 15% at 10,000+ units). Where stock is insufficient we have already placed supplier restocks so we can honour the order on the listed ETA.
+
+Cash after:       $44,559.50  (Δ $+47.50)
+Inventory after:  $5,311.70
+
+📊 Business Advisor pulse @ 2025-04-05: cash $44,559.50, inventory $5,311.70, total assets $49,871.20. Healthy runway.
+
+══════════════════════════════════════════════════════════════════════════════
+ Request 6/20  ·  2025-04-06  ·  school teacher → assembly
+══════════════════════════════════════════════════════════════════════════════
+  customer → orchestrator → [inventory · quoting · sales] → advisor*
+
+Cash before:      $44,559.50
+Inventory before: $5,311.70
+
+Response:
+Hello! Here is the quote for your assembly order (request received 2025-04-06):
+
+
+Items requiring follow-up:
+  · 500 × Construction paper: out of stock; placed a supplier restock (+500 units, ETA 2025-04-10).
+
+Quoted total (after bulk discounts): $0.00.
+Earliest delivery commitment: n/a.
+
+Quote rationale: pricing is computed from our published unit rates with a tiered bulk-discount ladder (2% from 100 units, scaling up to 15% at 10,000+ units). Where stock is insufficient we have already placed supplier restocks so we can honour the order on the listed ETA.
+
+Cash after:       $44,524.50  (Δ $-35.00)
+Inventory after:  $5,311.70
+
+══════════════════════════════════════════════════════════════════════════════
+ Request 7/20  ·  2025-04-07  ·  business owner → exhibition
+══════════════════════════════════════════════════════════════════════════════
+  customer → orchestrator → [inventory · quoting · sales] → advisor*
+
+Cash before:      $44,524.50
+Inventory before: $5,311.70
+
+Response:
+Hello! Here is the quote for your exhibition order (request received 2025-04-07):
+
+  · 500 × A4 paper @ $0.05/unit = $25.00, less 5% bulk discount = $23.75
+  · 200 × Cardstock @ $0.15/unit = $30.00, less 2% bulk discount = $29.40
+
+Items requiring follow-up:
+  · 1000 × matte a3 paper: not in our catalogue.
+  · 300 × poster boards (24" x 36"): not in our catalogue.
+  · 15 × 2025: not in our catalogue.
+
+Quoted total (after bulk discounts): $53.15.
+Earliest delivery commitment: 2025-04-11.
+
+Quote rationale: pricing is computed from our published unit rates with a tiered bulk-discount ladder (2% from 100 units, scaling up to 15% at 10,000+ units). Where stock is insufficient we have already placed supplier restocks so we can honour the order on the listed ETA.
+
+Cash after:       $44,577.65  (Δ $+53.15)
+Inventory after:  $5,256.70
+
+══════════════════════════════════════════════════════════════════════════════
+ Request 8/20  ·  2025-04-07  ·  school board resouorce manager → ceremony
+══════════════════════════════════════════════════════════════════════════════
+  customer → orchestrator → [inventory · quoting · sales] → advisor*
+
+Cash before:      $44,577.65
+Inventory before: $5,256.70
+
+Response:
+Hello! Here is the quote for your ceremony order (request received 2025-04-07):
+
+
+Items requiring follow-up:
+  · 500 × Glossy paper: only 387 in stock; placed restock for 113 more (ETA 2025-04-11).
+  · 1000 × Matte paper: out of stock; placed a supplier restock (+1000 units, ETA 2025-04-11).
+  · 2000 × Colored paper: only 188 in stock; placed restock for 1812 more (ETA 2025-04-14).
+  · 3000 × Recycled paper: out of stock; placed a supplier restock (+3000 units, ETA 2025-04-14).
+  · 15 × 2025: not in our catalogue.
+
+Quoted total (after bulk discounts): $0.00.
+Earliest delivery commitment: n/a.
+
+Quote rationale: pricing is computed from our published unit rates with a tiered bulk-discount ladder (2% from 100 units, scaling up to 15% at 10,000+ units). Where stock is insufficient we have already placed supplier restocks so we can honour the order on the listed ETA.
+
+Cash after:       $43,953.85  (Δ $-623.80)
+Inventory after:  $5,460.50
+
+══════════════════════════════════════════════════════════════════════════════
+ Request 9/20  ·  2025-04-07  ·  city hall clerk → reception
+══════════════════════════════════════════════════════════════════════════════
+  customer → orchestrator → [inventory · quoting · sales] → advisor*
+
+Cash before:      $43,953.85
+Inventory before: $5,460.50
+
+Response:
+Hello! Here is the quote for your reception order (request received 2025-04-07):
+
+  · 100 × Glossy paper @ $0.20/unit = $20.00, less 2% bulk discount = $19.60
+
+Items requiring follow-up:
+  · 200 × Standard copy paper: out of stock; placed a supplier restock (+200 units, ETA 2025-04-11).
+  · 10 × 2025: not in our catalogue.
+
+Quoted total (after bulk discounts): $19.60.
+Earliest delivery commitment: 2025-04-08.
+
+Quote rationale: pricing is computed from our published unit rates with a tiered bulk-discount ladder (2% from 100 units, scaling up to 15% at 10,000+ units). Where stock is insufficient we have already placed supplier restocks so we can honour the order on the listed ETA.
+
+Cash after:       $43,965.45  (Δ $+11.60)
+Inventory after:  $5,440.50
+
+══════════════════════════════════════════════════════════════════════════════
+ Request 10/20  ·  2025-04-08  ·  school principal → gathering
+══════════════════════════════════════════════════════════════════════════════
+  customer → orchestrator → [inventory · quoting · sales] → advisor*
+
+Cash before:      $43,965.45
+Inventory before: $5,440.50
+
+Response:
+Hello! Here is the quote for your gathering order (request received 2025-04-08):
+
+
+Items requiring follow-up:
+  · 500 × Cardstock: only 295 in stock; placed restock for 205 more (ETA 2025-04-12).
+
+Quoted total (after bulk discounts): $0.00.
+Earliest delivery commitment: n/a.
+
+Quote rationale: pricing is computed from our published unit rates with a tiered bulk-discount ladder (2% from 100 units, scaling up to 15% at 10,000+ units). Where stock is insufficient we have already placed supplier restocks so we can honour the order on the listed ETA.
+
+Cash after:       $43,934.70  (Δ $-30.75)
+Inventory after:  $5,471.25
+
+📊 Business Advisor pulse @ 2025-04-08: cash $43,934.70, inventory $5,471.25, total assets $49,405.95. Healthy runway.
+
+══════════════════════════════════════════════════════════════════════════════
+ Request 11/20  ·  2025-04-08  ·  city hall clerk → party
+══════════════════════════════════════════════════════════════════════════════
+  customer → orchestrator → [inventory · quoting · sales] → advisor*
+
+Cash before:      $43,934.70
+Inventory before: $5,471.25
+
+Response:
+Hello! Here is the quote for your party order (request received 2025-04-08):
+
+  · 200 × Cardstock @ $0.15/unit = $30.00, less 2% bulk discount = $29.40
+
+Quoted total (after bulk discounts): $29.40.
+Earliest delivery commitment: 2025-04-12.
+
+Quote rationale: pricing is computed from our published unit rates with a tiered bulk-discount ladder (2% from 100 units, scaling up to 15% at 10,000+ units). Where stock is insufficient we have already placed supplier restocks so we can honour the order on the listed ETA.
+
+Cash after:       $43,964.10  (Δ $+29.40)
+Inventory after:  $5,441.25
+
+══════════════════════════════════════════════════════════════════════════════
+ Request 12/20  ·  2025-04-08  ·  business owner → show
+══════════════════════════════════════════════════════════════════════════════
+  customer → orchestrator → [inventory · quoting · sales] → advisor*
+
+Cash before:      $43,964.10
+Inventory before: $5,441.25
+
+Response:
+Hello! Here is the quote for your show order (request received 2025-04-08):
+
+
+Items requiring follow-up:
+  · 500 × Cardstock: only 300 in stock; placed restock for 200 more (ETA 2025-04-12).
+
+Quoted total (after bulk discounts): $0.00.
+Earliest delivery commitment: n/a.
+
+Quote rationale: pricing is computed from our published unit rates with a tiered bulk-discount ladder (2% from 100 units, scaling up to 15% at 10,000+ units). Where stock is insufficient we have already placed supplier restocks so we can honour the order on the listed ETA.
+
+Cash after:       $43,934.10  (Δ $-30.00)
+Inventory after:  $5,471.25
+
+══════════════════════════════════════════════════════════════════════════════
+ Request 13/20  ·  2025-04-08  ·  event manager → exhibition
+══════════════════════════════════════════════════════════════════════════════
+  customer → orchestrator → [inventory · quoting · sales] → advisor*
+
+Cash before:      $43,934.10
+Inventory before: $5,471.25
+
+Response:
+Hello! Here is the quote for your exhibition order (request received 2025-04-08):
+
+  · 500 × Matte paper @ $0.18/unit = $90.00, less 5% bulk discount = $85.50
+
+Quoted total (after bulk discounts): $85.50.
+Earliest delivery commitment: 2025-04-12.
+
+Quote rationale: pricing is computed from our published unit rates with a tiered bulk-discount ladder (2% from 100 units, scaling up to 15% at 10,000+ units). Where stock is insufficient we have already placed supplier restocks so we can honour the order on the listed ETA.
+
+Cash after:       $44,019.60  (Δ $+85.50)
+Inventory after:  $5,471.25
+
+══════════════════════════════════════════════════════════════════════════════
+ Request 14/20  ·  2025-04-09  ·  city hall clerk → performance
+══════════════════════════════════════════════════════════════════════════════
+  customer → orchestrator → [inventory · quoting · sales] → advisor*
+
+Cash before:      $44,019.60
+Inventory before: $5,471.25
+
+Response:
+Hello! Here is the quote for your performance order (request received 2025-04-09):
+
+  · 5000 × A4 paper @ $0.05/unit = $250.00, less 10% bulk discount = $225.00
+
+Quoted total (after bulk discounts): $225.00.
+Earliest delivery commitment: 2025-04-16.
+
+Quote rationale: pricing is computed from our published unit rates with a tiered bulk-discount ladder (2% from 100 units, scaling up to 15% at 10,000+ units). Where stock is insufficient we have already placed supplier restocks so we can honour the order on the listed ETA.
+
+Cash after:       $44,244.60  (Δ $+225.00)
+Inventory after:  $5,221.25
+
+══════════════════════════════════════════════════════════════════════════════
+ Request 15/20  ·  2025-04-12  ·  event manager → demonstration
+══════════════════════════════════════════════════════════════════════════════
+  customer → orchestrator → [inventory · quoting · sales] → advisor*
+
+Cash before:      $44,244.60
+Inventory before: $5,221.25
+
+Response:
+Hello! Here is the quote for your demonstration order (request received 2025-04-12):
+
+
+Items requiring follow-up:
+  · 10000 × a4 white paper: not in our catalogue.
+  · 5000 × Colored paper: only 2000 in stock; placed restock for 3000 more (ETA 2025-04-19).
+  · 500 × cardboard for signage: not in our catalogue.
+  · 15 × 2025: not in our catalogue.
+
+Quoted total (after bulk discounts): $0.00.
+Earliest delivery commitment: n/a.
+
+Quote rationale: pricing is computed from our published unit rates with a tiered bulk-discount ladder (2% from 100 units, scaling up to 15% at 10,000+ units). Where stock is insufficient we have already placed supplier restocks so we can honour the order on the listed ETA.
+
+Cash after:       $43,944.60  (Δ $-300.00)
+Inventory after:  $5,521.25
+
+📊 Business Advisor pulse @ 2025-04-12: cash $43,944.60, inventory $5,521.25, total assets $49,465.85. Healthy runway.
+
+══════════════════════════════════════════════════════════════════════════════
+ Request 16/20  ·  2025-04-13  ·  school teacher → assembly
+══════════════════════════════════════════════════════════════════════════════
+  customer → orchestrator → [inventory · quoting · sales] → advisor*
+
+Cash before:      $43,944.60
+Inventory before: $5,521.25
+
+Response:
+Hello! Here is the quote for your assembly order (request received 2025-04-13):
+
+
+Items requiring follow-up:
+  · 500 × Standard copy paper: only 200 in stock; placed restock for 300 more (ETA 2025-04-17).
+
+Quoted total (after bulk discounts): $0.00.
+Earliest delivery commitment: n/a.
+
+Quote rationale: pricing is computed from our published unit rates with a tiered bulk-discount ladder (2% from 100 units, scaling up to 15% at 10,000+ units). Where stock is insufficient we have already placed supplier restocks so we can honour the order on the listed ETA.
+
+Cash after:       $43,932.60  (Δ $-12.00)
+Inventory after:  $5,521.25
+
+══════════════════════════════════════════════════════════════════════════════
+ Request 17/20  ·  2025-04-14  ·  restaurant manager → reception
+══════════════════════════════════════════════════════════════════════════════
+  customer → orchestrator → [inventory · quoting · sales] → advisor*
+
+Cash before:      $43,932.60
+Inventory before: $5,521.25
+
+Response:
+Hello! Here is the quote for your reception order (request received 2025-04-14):
+
+  · 500 × Colored paper @ $0.10/unit = $50.00, less 5% bulk discount = $47.50
+  · 500 × Paper plates @ $0.10/unit = $50.00, less 5% bulk discount = $47.50
+
+Items requiring follow-up:
+  · 1000 × Standard copy paper: only 500 in stock; placed restock for 500 more (ETA 2025-04-18).
+  · 2000 × table napkins (white): not in our catalogue.
+  · 1000 × Paper cups: out of stock; placed a supplier restock (+1000 units, ETA 2025-04-18).
+  · 15 × 2025: not in our catalogue.
+
+Quoted total (after bulk discounts): $95.00.
+Earliest delivery commitment: 2025-04-18.
+
+Quote rationale: pricing is computed from our published unit rates with a tiered bulk-discount ladder (2% from 100 units, scaling up to 15% at 10,000+ units). Where stock is insufficient we have already placed supplier restocks so we can honour the order on the listed ETA.
+
+Cash after:       $43,927.60  (Δ $-5.00)
+Inventory after:  $5,421.25
+
+══════════════════════════════════════════════════════════════════════════════
+ Request 18/20  ·  2025-04-14  ·  office manager → ceremony
+══════════════════════════════════════════════════════════════════════════════
+  customer → orchestrator → [inventory · quoting · sales] → advisor*
+
+Cash before:      $43,927.60
+Inventory before: $5,421.25
+
+Response:
+Hello! Here is the quote for your ceremony order (request received 2025-04-14):
+
+  · 500 × Cardstock @ $0.15/unit = $75.00, less 5% bulk discount = $71.25
+
+Quoted total (after bulk discounts): $71.25.
+Earliest delivery commitment: 2025-04-18.
+
+Quote rationale: pricing is computed from our published unit rates with a tiered bulk-discount ladder (2% from 100 units, scaling up to 15% at 10,000+ units). Where stock is insufficient we have already placed supplier restocks so we can honour the order on the listed ETA.
+
+Cash after:       $43,998.85  (Δ $+71.25)
+Inventory after:  $5,346.25
+
+══════════════════════════════════════════════════════════════════════════════
+ Request 19/20  ·  2025-04-15  ·  city hall clerk → exhibition
+══════════════════════════════════════════════════════════════════════════════
+  customer → orchestrator → [inventory · quoting · sales] → advisor*
+
+Cash before:      $43,998.85
+Inventory before: $5,346.25
+
+Response:
+Hello! Here is the quote for your exhibition order (request received 2025-04-15):
+
+
+Items requiring follow-up:
+  · 2000 × Glossy paper: only 400 in stock; placed restock for 1600 more (ETA 2025-04-22).
+  · 1500 × Matte paper: only 500 in stock; placed restock for 1000 more (ETA 2025-04-19).
+  · 1000 × Cardstock: out of stock; placed a supplier restock (+1000 units, ETA 2025-04-19).
+  · 20 × 2025: not in our catalogue.
+
+Quoted total (after bulk discounts): $0.00.
+Earliest delivery commitment: n/a.
+
+Quote rationale: pricing is computed from our published unit rates with a tiered bulk-discount ladder (2% from 100 units, scaling up to 15% at 10,000+ units). Where stock is insufficient we have already placed supplier restocks so we can honour the order on the listed ETA.
+
+Cash after:       $43,348.85  (Δ $-650.00)
+Inventory after:  $5,816.25
+
+══════════════════════════════════════════════════════════════════════════════
+ Request 20/20  ·  2025-04-17  ·  restaurant manager → concert
+══════════════════════════════════════════════════════════════════════════════
+  customer → orchestrator → [inventory · quoting · sales] → advisor*
+
+Cash before:      $43,348.85
+Inventory before: $5,816.25
+
+Response:
+Hello! Here is the quote for your concert order (request received 2025-04-17):
+
+
+Items requiring follow-up:
+  · 5000 × Flyers: out of stock; placed a supplier restock (+5000 units, ETA 2025-04-24).
+
+Quoted total (after bulk discounts): $0.00.
+Earliest delivery commitment: n/a.
+
+Quote rationale: pricing is computed from our published unit rates with a tiered bulk-discount ladder (2% from 100 units, scaling up to 15% at 10,000+ units). Where stock is insufficient we have already placed supplier restocks so we can honour the order on the listed ETA.
+
+Cash after:       $42,598.85  (Δ $-750.00)
+Inventory after:  $5,816.25
+
+📊 Business Advisor pulse @ 2025-04-17: cash $42,598.85, inventory $5,816.25, total assets $48,415.10. Healthy runway.
+
+══════════════════════════════════════════════════════════════════════════════
+ FINAL FINANCIAL REPORT
+══════════════════════════════════════════════════════════════════════════════
+Final cash:      $42,598.85
+Final inventory: $5,816.25
+Total assets:    $48,415.10
