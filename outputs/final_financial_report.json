@@ -1,14 +1,14 @@
 {
   "as_of_date": "2025-04-17",
-  "cash_balance": 42598.85,
-  "inventory_value": 5816.249999999999,
-  "total_assets": 48415.1,
+  "cash_balance": 43383.85,
+  "inventory_value": 5866.249999999999,
+  "total_assets": 49250.1,
   "inventory_summary": [
     {
       "item_name": "Paper plates",
-      "stock": 248,
+      "stock": 748,
       "unit_price": 0.1,
-      "value": 24.8
+      "value": 74.8
     },
     {
       "item_name": "100 lb cover stock",
@@ -130,14 +130,14 @@
       "total_revenue": 144.75
     },
     {
-      "item_name": "Colored paper",
-      "total_units": 1100.0,
-      "total_revenue": 104.8
-    },
-    {
       "item_name": "Matte paper",
       "total_units": 500.0,
       "total_revenue": 85.5
+    },
+    {
+      "item_name": "Glossy paper",
+      "total_units": 300.0,
+      "total_revenue": 58.800000000000004
     }
   ]
 }

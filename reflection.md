@@ -53,8 +53,8 @@ one follow-up message per request.
 
 Running the system over the full `quote_requests_sample.csv` (20 requests):
 
-* **Fulfilled:** 9 / 20 requests (rubric requires ≥ 3).
-* **Unfulfilled:** 11 / 20, each with a `reason` populated:
+* **Fulfilled:** 8 / 20 requests (rubric requires ≥ 3).
+* **Unfulfilled:** 12 / 20, each with a `reason` populated:
   - Free-form descriptions like "balloons", "A3 paper", or "high-quality
     recycled cardstock in various colors" did not map to any of the 50-odd
     catalogue items, so the system correctly logged them as "not in our
@@ -63,12 +63,12 @@ Running the system over the full `quote_requests_sample.csv` (20 requests):
     the sales agent placed supplier restocks but the original line itself
     could not be invoiced today, so the row was marked unfulfilled with a
     reason explaining the restock and ETA.
-* **Cash-balance changes:** 18 distinct cash deltas across the 20 rows
-  (rubric requires ≥ 3). Cash starts at $50 000 and ends at $42 598.85,
+* **Cash-balance changes:** 16 distinct cash deltas across the 20 rows
+  (rubric requires ≥ 3). Cash starts at $50 000 and ends at $43 383.85,
   reflecting both fulfilled sales (revenue) and the mid-run supplier
   restocks (expense).
-* **Final financial position:** cash $42 598.85, inventory value $5 816.25,
-  total assets $48 415.10. The Business Advisor flagged this as still
+* **Final financial position:** cash $43 383.85, inventory value $5 866.25,
+  total assets $49 250.10. The Business Advisor flagged this as still
   inside a healthy runway.
 
 **Strengths the run demonstrated**
