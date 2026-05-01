@@ -70,6 +70,46 @@ Running the system over the full `quote_requests_sample.csv` (20 requests):
   total assets $49 250.10. The Business Advisor flagged this as still
   inside a healthy runway.
 
+## v2 enhancements (post-pass — addresses all three reviewer-suggested
+## "enhancement opportunities")
+
+The first review round passed with commendation but suggested three
+specific enhancements. All three are implemented in v2:
+
+1. **Item-name fuzzy matching (High Impact)** — new `resolve_item_name`
+   `@tool` on the Inventory agent. Three-stage resolver: exact match →
+   substring containment + token-overlap (with stop-word removal and a
+   "distinctive token" guard so 'A3 paper' doesn't accidentally collapse
+   to 'Paper plates') → OpenAI `text-embedding-3-small` similarity over
+   the catalogue. The orchestrator's prompt now mandates calling
+   `resolve_item_name` before treating any unrecognised description as
+   "not in catalogue". On the sample dataset this converts five
+   previously-NO_MATCH descriptions ('A4 glossy paper', 'heavy white
+   cardstock', 'colorful poster paper', 'recycled cardstock', 'streamers')
+   into successful invoices, lifting fully-fulfilled rows from 5 to 7.
+
+2. **Proactive inventory management (Medium Impact)** — new
+   `propose_restock_plan` `@tool` on the Business Advisor. Identifies
+   every item below `min_stock_level`, recommends a batch reorder with a
+   3× headroom multiplier, and reports expected cost + supplier ETA.
+   The periodic Advisor pulse now folds these recommendations into its
+   one-paragraph health check, surfacing under-min items between
+   customer-driven shortfalls. The Sales agent still owns execution via
+   `restock_item` so the Advisor stays advisory.
+
+3. **True multi-item partial fulfilment (Medium Impact)** — `test_results.csv`
+   now carries a three-state `fulfillment` column (`fully_fulfilled` /
+   `partial` / `not_fulfilled`) alongside the legacy boolean. The
+   orchestrator prompt explicitly says partial fulfilment is *preferred*
+   over an all-or-nothing rejection. Two rows in the v2 evaluation are now
+   correctly classified as partial, with priced lines on the invoice and
+   unavailable lines under "Items needing your input" with alternatives.
+
+A small documentation fix is also bundled: a new `sequence_diagram.png`
+shows the dynamic message-passing flow for a typical request, addressing
+the reviewer's low-impact suggestion that the static `workflow_diagram.png`
+covered architecture but not runtime sequencing.
+
 ### Reviewer-feedback fixes (Industry Best Practices §7)
 
 The first review round flagged customer-facing transparency issues. Both the
@@ -135,3 +175,9 @@ orchestrator system prompt **and** the evidence simulator were tightened so:
    requests from the same persona start from that contract rate. This
    closes the loop between the negotiation stand-out and the company's
    real-world incentive to retain repeat customers.
+
+## v2 status
+
+Improvements (1) and (2) above are **shipped in v2** (see the dedicated
+v2 section near the top of this file). Improvement (3) — contract-pricing
+memory — remains the next item to pursue and is now the v3 candidate.

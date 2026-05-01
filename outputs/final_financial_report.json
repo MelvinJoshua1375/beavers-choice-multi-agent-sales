@@ -1,8 +1,8 @@
 {
   "as_of_date": "2025-04-17",
-  "cash_balance": 43383.85,
-  "inventory_value": 5866.249999999999,
-  "total_assets": 49250.1,
+  "cash_balance": 43209.549999999996,
+  "inventory_value": 6066.249999999999,
+  "total_assets": 49275.799999999996,
   "inventory_summary": [
     {
       "item_name": "Paper plates",
@@ -96,9 +96,9 @@
     },
     {
       "item_name": "A4 paper",
-      "stock": 4500,
+      "stock": 8500,
       "unit_price": 0.05,
-      "value": 225.0
+      "value": 425.0
     },
     {
       "item_name": "Invitation cards",
@@ -121,23 +121,23 @@
     },
     {
       "item_name": "A4 paper",
-      "total_units": 5500.0,
-      "total_revenue": 248.75
-    },
-    {
-      "item_name": "Cardstock",
-      "total_units": 1000.0,
-      "total_revenue": 144.75
+      "total_units": 7200.0,
+      "total_revenue": 328.8
     },
     {
       "item_name": "Matte paper",
-      "total_units": 500.0,
-      "total_revenue": 85.5
+      "total_units": 1000.0,
+      "total_revenue": 167.4
     },
     {
       "item_name": "Glossy paper",
-      "total_units": 300.0,
-      "total_revenue": 58.800000000000004
+      "total_units": 800.0,
+      "total_revenue": 153.8
+    },
+    {
+      "item_name": "Cardstock",
+      "total_units": 500.0,
+      "total_revenue": 73.5
     }
   ]
 }

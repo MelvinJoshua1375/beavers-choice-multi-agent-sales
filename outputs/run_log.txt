@@ -1,7 +1,7 @@
 ══════════════════════════════════════════════════════════════════════════════
  Request 1/20  ·  2025-04-01  ·  office manager → ceremony
 ══════════════════════════════════════════════════════════════════════════════
-  customer → orchestrator → [inventory · quoting · sales] → advisor*
+  customer → orchestrator → [inventory(resolve_item_name) · quoting · sales] → advisor*
 
 Cash before:      $45,059.70
 Inventory before: $4,940.30
@@ -24,7 +24,7 @@ Inventory after:  $4,875.30
 ══════════════════════════════════════════════════════════════════════════════
  Request 2/20  ·  2025-04-03  ·  hotel manager → parade
 ══════════════════════════════════════════════════════════════════════════════
-  customer → orchestrator → [inventory · quoting · sales] → advisor*
+  customer → orchestrator → [inventory(resolve_item_name) · quoting · sales] → advisor*
 
 Cash before:      $45,123.40
 Inventory before: $4,875.30
@@ -46,7 +46,7 @@ Inventory after:  $4,875.30
 ══════════════════════════════════════════════════════════════════════════════
  Request 3/20  ·  2025-04-04  ·  school board resouorce manager → conference
 ══════════════════════════════════════════════════════════════════════════════
-  customer → orchestrator → [inventory · quoting · sales] → advisor*
+  customer → orchestrator → [inventory(resolve_item_name) · quoting · sales] → advisor*
 
 Cash before:      $44,998.40
 Inventory before: $4,875.30
@@ -68,7 +68,7 @@ Inventory after:  $5,361.70
 ══════════════════════════════════════════════════════════════════════════════
  Request 4/20  ·  2025-04-05  ·  non-profit director → reception
 ══════════════════════════════════════════════════════════════════════════════
-  customer → orchestrator → [inventory · quoting · sales] → advisor*
+  customer → orchestrator → [inventory(resolve_item_name) · quoting · sales] → advisor*
 
 Cash before:      $44,512.00
 Inventory before: $5,361.70
@@ -78,7 +78,7 @@ Hello! Here is your quote for the reception (requested 2025-04-05):
 
 
 Items needing your input:
-  · 500 × high-quality: not part of our standard catalogue. Please reply or email sales@beavers-choice.example so we can source it for you separately.
+  · 500 × high-quality: not part of our standard catalogue. Reply or email sales@beavers-choice.example so we can source it for you separately.
 
 We can't quote a final total yet because every line in this request needs a swap or a confirmation from you (see above). Reply with your choices and we'll send a finalised quote the same day.
 
@@ -90,7 +90,7 @@ Inventory after:  $5,361.70
 ══════════════════════════════════════════════════════════════════════════════
  Request 5/20  ·  2025-04-05  ·  school teacher → party
 ══════════════════════════════════════════════════════════════════════════════
-  customer → orchestrator → [inventory · quoting · sales] → advisor*
+  customer → orchestrator → [inventory(resolve_item_name) · quoting · sales] → advisor*
 
 Cash before:      $44,512.00
 Inventory before: $5,361.70
@@ -102,11 +102,12 @@ Cash after:       $44,512.00  (Δ $+0.00)
 Inventory after:  $5,361.70
 
 📊 Business Advisor pulse @ 2025-04-05: cash $44,512.00, inventory $5,361.70, total assets $49,873.70. Healthy runway.
+   Proactive restock plan (0 items, ~$0.00). Top 3: no items below their min stock level.
 
 ══════════════════════════════════════════════════════════════════════════════
  Request 6/20  ·  2025-04-06  ·  school teacher → assembly
 ══════════════════════════════════════════════════════════════════════════════
-  customer → orchestrator → [inventory · quoting · sales] → advisor*
+  customer → orchestrator → [inventory(resolve_item_name) · quoting · sales] → advisor*
 
 Cash before:      $44,512.00
 Inventory before: $5,361.70
@@ -128,7 +129,7 @@ Inventory after:  $5,361.70
 ══════════════════════════════════════════════════════════════════════════════
  Request 7/20  ·  2025-04-07  ·  business owner → exhibition
 ══════════════════════════════════════════════════════════════════════════════
-  customer → orchestrator → [inventory · quoting · sales] → advisor*
+  customer → orchestrator → [inventory(resolve_item_name) · quoting · sales] → advisor*
 
 Cash before:      $44,477.00
 Inventory before: $5,361.70
@@ -140,72 +141,71 @@ Hello! Here is your quote for the exhibition (requested 2025-04-07):
   · 200 × Cardstock @ $0.15 = $30.00, less 2% bulk discount = $29.40
 
 Items needing your input:
-  · 1000 × matte a3 paper: not part of our standard catalogue. A close alternative we currently carry is **A4 paper** — happy to re-quote with that if it works for you.
+  · 1000 × Matte paper: currently unavailable in the requested quantity. Earliest restock by 2025-04-11, OR we can swap to **A4 paper** which is in stock today — let us know which you prefer.
 
 Quoted total (priced lines only): $53.15.
 Earliest delivery for the priced items: 2025-04-11.
 
 Bulk discounts in this quote are applied automatically once a line crosses 100, 500, 1 000, 5 000 or 10 000 units. Where an item is unavailable today, we have suggested an in-stock alternative or a next step so the order can move forward without delay.
 
-Cash after:       $44,530.15  (Δ $+53.15)
+Cash after:       $44,350.15  (Δ $-126.85)
 Inventory after:  $5,306.70
 
 ══════════════════════════════════════════════════════════════════════════════
  Request 8/20  ·  2025-04-07  ·  school board resouorce manager → ceremony
 ══════════════════════════════════════════════════════════════════════════════
-  customer → orchestrator → [inventory · quoting · sales] → advisor*
+  customer → orchestrator → [inventory(resolve_item_name) · quoting · sales] → advisor*
 
-Cash before:      $44,530.15
+Cash before:      $44,350.15
 Inventory before: $5,306.70
 
 Response:
 Hello! Here is your quote for the ceremony (requested 2025-04-07):
 
+  · 1000 × Matte paper @ $0.18 = $180.00, less 7% bulk discount = $167.40
 
 Items needing your input:
   · 500 × Glossy paper: currently unavailable in the requested quantity. Earliest restock by 2025-04-11, OR we can swap to **A4 paper** which is in stock today — let us know which you prefer.
-  · 1000 × Matte paper: currently unavailable in the requested quantity. Earliest restock by 2025-04-11, OR we can swap to **A4 paper** which is in stock today — let us know which you prefer.
   · 2000 × Colored paper: currently unavailable in the requested quantity. Earliest restock by 2025-04-14, OR we can swap to **A4 paper** which is in stock today — let us know which you prefer.
   · 3000 × Recycled paper: currently unavailable in the requested quantity. Earliest restock by 2025-04-14, OR we can swap to **A4 paper** which is in stock today — let us know which you prefer.
 
-We can't quote a final total yet because every line in this request needs a swap or a confirmation from you (see above). Reply with your choices and we'll send a finalised quote the same day.
+Quoted total (priced lines only): $167.40.
+Earliest delivery for the priced items: 2025-04-11.
 
-Where an item is unavailable today, we have suggested an in-stock alternative or a next step so the order can move forward without delay.
+Bulk discounts in this quote are applied automatically once a line crosses 100, 500, 1 000, 5 000 or 10 000 units. Where an item is unavailable today, we have suggested an in-stock alternative or a next step so the order can move forward without delay.
 
-Cash after:       $43,956.35  (Δ $-573.80)
+Cash after:       $44,123.75  (Δ $-226.40)
 Inventory after:  $5,460.50
 
 ══════════════════════════════════════════════════════════════════════════════
  Request 9/20  ·  2025-04-07  ·  city hall clerk → reception
 ══════════════════════════════════════════════════════════════════════════════
-  customer → orchestrator → [inventory · quoting · sales] → advisor*
+  customer → orchestrator → [inventory(resolve_item_name) · quoting · sales] → advisor*
 
-Cash before:      $43,956.35
+Cash before:      $44,123.75
 Inventory before: $5,460.50
 
 Response:
 Hello! Here is your quote for the reception (requested 2025-04-07):
 
+  · 200 × A4 paper @ $0.05 = $10.00, less 2% bulk discount = $9.80
   · 100 × Glossy paper @ $0.20 = $20.00, less 2% bulk discount = $19.60
 
-Items needing your input:
-  · 200 × Standard copy paper: currently unavailable in the requested quantity. Earliest restock by 2025-04-11, OR we can swap to **A4 paper** which is in stock today — let us know which you prefer.
+Quoted total (priced lines only): $29.40.
+Earliest delivery for the priced items: 2025-04-11.
 
-Quoted total (priced lines only): $19.60.
-Earliest delivery for the priced items: 2025-04-08.
+Bulk discounts in this quote are applied automatically once a line crosses 100, 500, 1 000, 5 000 or 10 000 units.
 
-Bulk discounts in this quote are applied automatically once a line crosses 100, 500, 1 000, 5 000 or 10 000 units. Where an item is unavailable today, we have suggested an in-stock alternative or a next step so the order can move forward without delay.
-
-Cash after:       $43,967.95  (Δ $+11.60)
-Inventory after:  $5,440.50
+Cash after:       $44,153.15  (Δ $+29.40)
+Inventory after:  $5,430.50
 
 ══════════════════════════════════════════════════════════════════════════════
  Request 10/20  ·  2025-04-08  ·  school principal → gathering
 ══════════════════════════════════════════════════════════════════════════════
-  customer → orchestrator → [inventory · quoting · sales] → advisor*
+  customer → orchestrator → [inventory(resolve_item_name) · quoting · sales] → advisor*
 
-Cash before:      $43,967.95
-Inventory before: $5,440.50
+Cash before:      $44,153.15
+Inventory before: $5,430.50
 
 Response:
 Hello! Here is your quote for the gathering (requested 2025-04-08):
@@ -218,18 +218,19 @@ We can't quote a final total yet because every line in this request needs a swap
 
 Where an item is unavailable today, we have suggested an in-stock alternative or a next step so the order can move forward without delay.
 
-Cash after:       $43,937.20  (Δ $-30.75)
-Inventory after:  $5,471.25
+Cash after:       $44,122.40  (Δ $-30.75)
+Inventory after:  $5,461.25
 
-📊 Business Advisor pulse @ 2025-04-08: cash $43,937.20, inventory $5,471.25, total assets $49,408.45. Healthy runway.
+📊 Business Advisor pulse @ 2025-04-08: cash $44,122.40, inventory $5,461.25, total assets $49,583.65. Healthy runway.
+   Proactive restock plan (0 items, ~$0.00). Top 3: no items below their min stock level.
 
 ══════════════════════════════════════════════════════════════════════════════
  Request 11/20  ·  2025-04-08  ·  city hall clerk → party
 ══════════════════════════════════════════════════════════════════════════════
-  customer → orchestrator → [inventory · quoting · sales] → advisor*
+  customer → orchestrator → [inventory(resolve_item_name) · quoting · sales] → advisor*
 
-Cash before:      $43,937.20
-Inventory before: $5,471.25
+Cash before:      $44,122.40
+Inventory before: $5,461.25
 
 Response:
 Hello! Here is your quote for the party (requested 2025-04-08):
@@ -241,59 +242,59 @@ Earliest delivery for the priced items: 2025-04-12.
 
 Bulk discounts in this quote are applied automatically once a line crosses 100, 500, 1 000, 5 000 or 10 000 units.
 
-Cash after:       $43,966.60  (Δ $+29.40)
-Inventory after:  $5,441.25
+Cash after:       $44,151.80  (Δ $+29.40)
+Inventory after:  $5,431.25
 
 ══════════════════════════════════════════════════════════════════════════════
  Request 12/20  ·  2025-04-08  ·  business owner → show
 ══════════════════════════════════════════════════════════════════════════════
-  customer → orchestrator → [inventory · quoting · sales] → advisor*
+  customer → orchestrator → [inventory(resolve_item_name) · quoting · sales] → advisor*
 
-Cash before:      $43,966.60
-Inventory before: $5,441.25
+Cash before:      $44,151.80
+Inventory before: $5,431.25
 
 Response:
 Hello! Here is your quote for the show (requested 2025-04-08):
 
 
 Items needing your input:
-  · 500 × Cardstock: currently unavailable in the requested quantity. Earliest restock by 2025-04-12, OR we can swap to **A4 paper** which is in stock today — let us know which you prefer.
+  · 500 × Glossy paper: currently unavailable in the requested quantity. Earliest restock by 2025-04-09, OR we can swap to **A4 paper** which is in stock today — let us know which you prefer.
 
 We can't quote a final total yet because every line in this request needs a swap or a confirmation from you (see above). Reply with your choices and we'll send a finalised quote the same day.
 
 Where an item is unavailable today, we have suggested an in-stock alternative or a next step so the order can move forward without delay.
 
-Cash after:       $43,936.60  (Δ $-30.00)
-Inventory after:  $5,471.25
+Cash after:       $44,131.80  (Δ $-20.00)
+Inventory after:  $5,451.25
 
 ══════════════════════════════════════════════════════════════════════════════
  Request 13/20  ·  2025-04-08  ·  event manager → exhibition
 ══════════════════════════════════════════════════════════════════════════════
-  customer → orchestrator → [inventory · quoting · sales] → advisor*
+  customer → orchestrator → [inventory(resolve_item_name) · quoting · sales] → advisor*
 
-Cash before:      $43,936.60
-Inventory before: $5,471.25
+Cash before:      $44,131.80
+Inventory before: $5,451.25
 
 Response:
 Hello! Here is your quote for the exhibition (requested 2025-04-08):
 
-  · 500 × Matte paper @ $0.18 = $90.00, less 5% bulk discount = $85.50
+  · 500 × Glossy paper @ $0.20 = $100.00, less 5% bulk discount = $95.00
 
-Quoted total (priced lines only): $85.50.
+Quoted total (priced lines only): $95.00.
 Earliest delivery for the priced items: 2025-04-12.
 
 Bulk discounts in this quote are applied automatically once a line crosses 100, 500, 1 000, 5 000 or 10 000 units.
 
-Cash after:       $44,022.10  (Δ $+85.50)
-Inventory after:  $5,471.25
+Cash after:       $44,226.80  (Δ $+95.00)
+Inventory after:  $5,351.25
 
 ══════════════════════════════════════════════════════════════════════════════
  Request 14/20  ·  2025-04-09  ·  city hall clerk → performance
 ══════════════════════════════════════════════════════════════════════════════
-  customer → orchestrator → [inventory · quoting · sales] → advisor*
+  customer → orchestrator → [inventory(resolve_item_name) · quoting · sales] → advisor*
 
-Cash before:      $44,022.10
-Inventory before: $5,471.25
+Cash before:      $44,226.80
+Inventory before: $5,351.25
 
 Response:
 Hello! Here is your quote for the performance (requested 2025-04-09):
@@ -305,109 +306,108 @@ Earliest delivery for the priced items: 2025-04-16.
 
 Bulk discounts in this quote are applied automatically once a line crosses 100, 500, 1 000, 5 000 or 10 000 units.
 
-Cash after:       $44,247.10  (Δ $+225.00)
-Inventory after:  $5,221.25
+Cash after:       $44,451.80  (Δ $+225.00)
+Inventory after:  $5,101.25
 
 ══════════════════════════════════════════════════════════════════════════════
  Request 15/20  ·  2025-04-12  ·  event manager → demonstration
 ══════════════════════════════════════════════════════════════════════════════
-  customer → orchestrator → [inventory · quoting · sales] → advisor*
+  customer → orchestrator → [inventory(resolve_item_name) · quoting · sales] → advisor*
 
-Cash before:      $44,247.10
-Inventory before: $5,221.25
+Cash before:      $44,451.80
+Inventory before: $5,101.25
 
 Response:
 Hello! Here is your quote for the demonstration (requested 2025-04-12):
 
 
 Items needing your input:
-  · 10000 × a4 white paper: not part of our standard catalogue. Please reply or email sales@beavers-choice.example so we can source it for you separately.
-  · 5000 × Colored paper: currently unavailable in the requested quantity. Earliest restock by 2025-04-19; reply to confirm we should hold the order until then or email sales for an interim option.
-  · 500 × cardboard for signage: not part of our standard catalogue. A close alternative we currently carry is **Invitation cards** — happy to re-quote with that if it works for you.
+  · 10000 × A4 paper: currently unavailable in the requested quantity. Earliest restock by 2025-04-19; reply to confirm we should hold the order until then or email sales for an interim option.
+  · 5000 × Colored paper: currently unavailable in the requested quantity. Earliest restock by 2025-04-19, OR we can swap to **A4 paper** which is in stock today — let us know which you prefer.
+  · 500 × cardboard for signage: not part of our standard catalogue. Reply or email sales@beavers-choice.example so we can source it for you separately.
 
 We can't quote a final total yet because every line in this request needs a swap or a confirmation from you (see above). Reply with your choices and we'll send a finalised quote the same day.
 
 Where an item is unavailable today, we have suggested an in-stock alternative or a next step so the order can move forward without delay.
 
-Cash after:       $43,947.10  (Δ $-300.00)
-Inventory after:  $5,521.25
+Cash after:       $43,866.80  (Δ $-585.00)
+Inventory after:  $5,686.25
 
-📊 Business Advisor pulse @ 2025-04-12: cash $43,947.10, inventory $5,521.25, total assets $49,468.35. Healthy runway.
+📊 Business Advisor pulse @ 2025-04-12: cash $43,866.80, inventory $5,686.25, total assets $49,553.05. Healthy runway.
+   Proactive restock plan (1 items, ~$88.20). Top 3: Glossy paper (+441, ETA 2025-04-16).
 
 ══════════════════════════════════════════════════════════════════════════════
  Request 16/20  ·  2025-04-13  ·  school teacher → assembly
 ══════════════════════════════════════════════════════════════════════════════
-  customer → orchestrator → [inventory · quoting · sales] → advisor*
+  customer → orchestrator → [inventory(resolve_item_name) · quoting · sales] → advisor*
 
-Cash before:      $43,947.10
-Inventory before: $5,521.25
+Cash before:      $43,866.80
+Inventory before: $5,686.25
 
 Response:
 Hello! Here is your quote for the assembly (requested 2025-04-13):
 
+  · 500 × A4 paper @ $0.05 = $25.00, less 5% bulk discount = $23.75
+
+Quoted total (priced lines only): $23.75.
+Earliest delivery for the priced items: 2025-04-17.
+
+Bulk discounts in this quote are applied automatically once a line crosses 100, 500, 1 000, 5 000 or 10 000 units.
+
+Cash after:       $43,890.55  (Δ $+23.75)
+Inventory after:  $5,661.25
+
+══════════════════════════════════════════════════════════════════════════════
+ Request 17/20  ·  2025-04-14  ·  restaurant manager → reception
+══════════════════════════════════════════════════════════════════════════════
+  customer → orchestrator → [inventory(resolve_item_name) · quoting · sales] → advisor*
+
+Cash before:      $43,890.55
+Inventory before: $5,661.25
+
+Response:
+Hello! Here is your quote for the reception (requested 2025-04-14):
+
+  · 1000 × A4 paper @ $0.05 = $50.00, less 7% bulk discount = $46.50
+  · 500 × Colored paper @ $0.10 = $50.00, less 5% bulk discount = $47.50
+
+Quoted total (priced lines only): $94.00.
+Earliest delivery for the priced items: 2025-04-18.
+
+Bulk discounts in this quote are applied automatically once a line crosses 100, 500, 1 000, 5 000 or 10 000 units.
+
+Cash after:       $43,984.55  (Δ $+94.00)
+Inventory after:  $5,561.25
+
+══════════════════════════════════════════════════════════════════════════════
+ Request 18/20  ·  2025-04-14  ·  office manager → ceremony
+══════════════════════════════════════════════════════════════════════════════
+  customer → orchestrator → [inventory(resolve_item_name) · quoting · sales] → advisor*
+
+Cash before:      $43,984.55
+Inventory before: $5,561.25
+
+Response:
+Hello! Here is your quote for the ceremony (requested 2025-04-14):
+
 
 Items needing your input:
-  · 500 × Standard copy paper: currently unavailable in the requested quantity. Earliest restock by 2025-04-17, OR we can swap to **A4 paper** which is in stock today — let us know which you prefer.
+  · 500 × Cardstock: currently unavailable in the requested quantity. Earliest restock by 2025-04-18, OR we can swap to **A4 paper** which is in stock today — let us know which you prefer.
 
 We can't quote a final total yet because every line in this request needs a swap or a confirmation from you (see above). Reply with your choices and we'll send a finalised quote the same day.
 
 Where an item is unavailable today, we have suggested an in-stock alternative or a next step so the order can move forward without delay.
 
-Cash after:       $43,935.10  (Δ $-12.00)
-Inventory after:  $5,521.25
-
-══════════════════════════════════════════════════════════════════════════════
- Request 17/20  ·  2025-04-14  ·  restaurant manager → reception
-══════════════════════════════════════════════════════════════════════════════
-  customer → orchestrator → [inventory · quoting · sales] → advisor*
-
-Cash before:      $43,935.10
-Inventory before: $5,521.25
-
-Response:
-Hello! Here is your quote for the reception (requested 2025-04-14):
-
-  · 500 × Colored paper @ $0.10 = $50.00, less 5% bulk discount = $47.50
-
-Items needing your input:
-  · 1000 × Standard copy paper: currently unavailable in the requested quantity. Earliest restock by 2025-04-18, OR we can swap to **A4 paper** which is in stock today — let us know which you prefer.
-
-Quoted total (priced lines only): $47.50.
-Earliest delivery for the priced items: 2025-04-18.
-
-Bulk discounts in this quote are applied automatically once a line crosses 100, 500, 1 000, 5 000 or 10 000 units. Where an item is unavailable today, we have suggested an in-stock alternative or a next step so the order can move forward without delay.
-
-Cash after:       $43,962.60  (Δ $+27.50)
-Inventory after:  $5,471.25
-
-══════════════════════════════════════════════════════════════════════════════
- Request 18/20  ·  2025-04-14  ·  office manager → ceremony
-══════════════════════════════════════════════════════════════════════════════
-  customer → orchestrator → [inventory · quoting · sales] → advisor*
-
-Cash before:      $43,962.60
-Inventory before: $5,471.25
-
-Response:
-Hello! Here is your quote for the ceremony (requested 2025-04-14):
-
-  · 500 × Cardstock @ $0.15 = $75.00, less 5% bulk discount = $71.25
-
-Quoted total (priced lines only): $71.25.
-Earliest delivery for the priced items: 2025-04-18.
-
-Bulk discounts in this quote are applied automatically once a line crosses 100, 500, 1 000, 5 000 or 10 000 units.
-
-Cash after:       $44,033.85  (Δ $+71.25)
-Inventory after:  $5,396.25
+Cash after:       $43,954.55  (Δ $-30.00)
+Inventory after:  $5,591.25
 
 ══════════════════════════════════════════════════════════════════════════════
  Request 19/20  ·  2025-04-15  ·  city hall clerk → exhibition
 ══════════════════════════════════════════════════════════════════════════════
-  customer → orchestrator → [inventory · quoting · sales] → advisor*
+  customer → orchestrator → [inventory(resolve_item_name) · quoting · sales] → advisor*
 
-Cash before:      $44,033.85
-Inventory before: $5,396.25
+Cash before:      $43,954.55
+Inventory before: $5,591.25
 
 Response:
 Hello! Here is your quote for the exhibition (requested 2025-04-15):
@@ -415,35 +415,36 @@ Hello! Here is your quote for the exhibition (requested 2025-04-15):
 
 Items needing your input:
   · 2000 × Glossy paper: currently unavailable in the requested quantity. Earliest restock by 2025-04-22, OR we can swap to **A4 paper** which is in stock today — let us know which you prefer.
-  · 1500 × Matte paper: currently unavailable in the requested quantity. Earliest restock by 2025-04-19, OR we can swap to **A4 paper** which is in stock today — let us know which you prefer.
+  · 1500 × Matte paper: currently unavailable in the requested quantity. Earliest restock by 2025-04-22, OR we can swap to **A4 paper** which is in stock today — let us know which you prefer.
   · 1000 × Cardstock: currently unavailable in the requested quantity. Earliest restock by 2025-04-19, OR we can swap to **A4 paper** which is in stock today — let us know which you prefer.
 
 We can't quote a final total yet because every line in this request needs a swap or a confirmation from you (see above). Reply with your choices and we'll send a finalised quote the same day.
 
 Where an item is unavailable today, we have suggested an in-stock alternative or a next step so the order can move forward without delay.
 
-Cash after:       $43,383.85  (Δ $-650.00)
-Inventory after:  $5,866.25
+Cash after:       $43,209.55  (Δ $-745.00)
+Inventory after:  $6,066.25
 
 ══════════════════════════════════════════════════════════════════════════════
  Request 20/20  ·  2025-04-17  ·  restaurant manager → concert
 ══════════════════════════════════════════════════════════════════════════════
-  customer → orchestrator → [inventory · quoting · sales] → advisor*
+  customer → orchestrator → [inventory(resolve_item_name) · quoting · sales] → advisor*
 
-Cash before:      $43,383.85
-Inventory before: $5,866.25
+Cash before:      $43,209.55
+Inventory before: $6,066.25
 
 Response:
 Hello! Thank you for your enquiry for the concert on 2025-04-17. We weren't able to identify specific items and quantities in your message — could you reply with the exact items (and quantity per item) you'd like quoted?
 
-Cash after:       $43,383.85  (Δ $+0.00)
-Inventory after:  $5,866.25
+Cash after:       $43,209.55  (Δ $+0.00)
+Inventory after:  $6,066.25
 
-📊 Business Advisor pulse @ 2025-04-17: cash $43,383.85, inventory $5,866.25, total assets $49,250.10. Healthy runway.
+📊 Business Advisor pulse @ 2025-04-17: cash $43,209.55, inventory $6,066.25, total assets $49,275.80. Healthy runway.
+   Proactive restock plan (0 items, ~$0.00). Top 3: no items below their min stock level.
 
 ══════════════════════════════════════════════════════════════════════════════
  FINAL FINANCIAL REPORT
 ══════════════════════════════════════════════════════════════════════════════
-Final cash:      $43,383.85
-Final inventory: $5,866.25
-Total assets:    $49,250.10
+Final cash:      $43,209.55
+Final inventory: $6,066.25
+Total assets:    $49,275.80

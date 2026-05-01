@@ -17,10 +17,14 @@ This is the final project for an Udacity Agentic AI course.
 | # | Agent (smolagents) | Tools                                         | Wraps starter helper |
 |---|---|---|---|
 | 1 | **Orchestrator** (`CodeAgent`) | manages the four worker agents below | — |
-| 2 | **Inventory** (`ToolCallingAgent`) | `check_inventory`, `check_item_stock`, `flag_reorder_needs` | `get_all_inventory`, `get_stock_level` |
+| 2 | **Inventory** (`ToolCallingAgent`) | `check_inventory`, `check_item_stock`, `flag_reorder_needs`, `resolve_item_name` ★ | `get_all_inventory`, `get_stock_level` |
 | 3 | **Quoting** (`ToolCallingAgent`) | `lookup_similar_quotes`, `price_quote_with_discount` | `search_quote_history` (+ tiered discount over `paper_supplies`) |
 | 4 | **Sales fulfilment** (`ToolCallingAgent`) | `estimate_delivery`, `finalise_sale`, `restock_item` | `get_supplier_delivery_date`, `create_transaction` |
-| 5 | **Business Advisor** (`ToolCallingAgent` — stand-out) | `cash_snapshot`, `full_financial_report` | `get_cash_balance`, `generate_financial_report` |
+| 5 | **Business Advisor** (`ToolCallingAgent` — stand-out) | `cash_snapshot`, `full_financial_report`, `propose_restock_plan` ★ | `get_cash_balance`, `generate_financial_report` |
+
+> ★ marks **v2 enhancements** added after the first review round (see "v2"
+> section below). All seven required starter helpers remain wrapped by
+> exactly one tool; the v2 additions don't displace anything.
 
 A sixth **Customer Simulator** lives in the test harness only — it is *not* a
 smolagents agent — so the in-team agent count stays at the rubric cap of five.
@@ -34,6 +38,20 @@ All seven required starter helpers (`create_transaction`, `get_all_inventory`,
 `@tool` body. None of the helper bodies are modified — the SQLite schema and
 seed data are byte-identical to the starter, so a grader running this file
 from a clean clone gets the same numerical answers.
+
+---
+
+## v2 (post-pass) enhancements
+
+The first review round passed with commendation but suggested three
+specific enhancements; v2 implements all three plus the documentation note.
+
+| Enhancement (reviewer wording) | Implementation in v2 |
+|---|---|
+| **Item-name fuzzy matching** ("'A4 glossy paper' should resolve to 'Glossy paper'") | New `@tool resolve_item_name(query)` on the Inventory agent. Three-stage resolver: exact → substring + token-overlap with stop-word + 'distinctive token' guards → OpenAI `text-embedding-3-small` similarity. The orchestrator prompt now mandates calling it before treating any unrecognised description as "not in catalogue". On the sample dataset this lifts fully-fulfilled rows from 5 to 7. |
+| **Proactive inventory management** ("`propose_restock_plan` tool") | New `@tool propose_restock_plan(as_of_date, headroom_multiplier=3)` on the Business Advisor. Identifies under-min items, recommends batch reorders with 3× headroom, returns expected costs + supplier ETAs. The periodic Advisor pulse now folds these recommendations into its health-check paragraph. |
+| **Multi-item partial fulfilment** ("partial fulfillment with clear itemisation") | New three-state `fulfillment` column in `test_results.csv` (`fully_fulfilled` / `partial` / `not_fulfilled`). Orchestrator prompt explicitly says partial fulfilment is *preferred* over an all-or-nothing rejection. Two rows in the v2 evaluation are now correctly classified as partial, with priced lines AND items needing input AND alternatives. |
+| **Sequence diagram** (low-impact doc note) | New `sequence_diagram.png` shows the dynamic message-passing flow for a typical multi-item request — complementing the static `workflow_diagram.png`. |
 
 ---
 
@@ -60,7 +78,8 @@ The rubric lists three optional ideas; all three are implemented:
 ```
 .
 ├── project_starter.py            # single source file (rubric: only one .py)
-├── workflow_diagram.png          # rubric: agent workflow diagram
+├── workflow_diagram.png          # rubric: static agent workflow diagram
+├── sequence_diagram.png          # v2: dynamic per-request message passing
 ├── reflection.md                 # rubric: detailed reflection report
 ├── README.md
 ├── requirements.txt
@@ -128,8 +147,8 @@ Expect roughly 1-3 minutes against `gpt-4o-mini` on the Vocareum proxy.
 | All seven helpers used in tool definitions | helper-function table above (verified by `grep`) |
 | Evaluated on `quote_requests_sample.csv`, results in `test_results.csv` | `run_test_scenarios()` writes that file |
 | ≥3 requests change cash balance | `test_results.csv` shows 16 cash deltas |
-| ≥3 quote requests successfully fulfilled | 5 fully fulfilled (every line invoiced) |
-| Some unfulfilled requests with reasons | 15 partially / not fulfilled, every row carries a `reason` AND an in-catalogue alternative or a contact-sales next-step |
+| ≥3 quote requests successfully fulfilled | **v2: 7** fully fulfilled (was 5 in v1) |
+| Some unfulfilled requests with reasons | **v2: 11** not-fulfilled + **2** partial — every row carries a `reason` AND an in-catalogue alternative or a contact-sales next-step. New `fulfillment` column distinguishes the three states. |
 | Reflection: architecture explanation | `reflection.md` §1 |
 | Reflection: evaluation of `test_results.csv` | `reflection.md` §2 |
 | Reflection: ≥2 improvement suggestions | `reflection.md` §3 |

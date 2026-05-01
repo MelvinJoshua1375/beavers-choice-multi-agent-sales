@@ -1,4 +1,4 @@
-request_id,request_date,job,event,request,response,fulfilled,reason,cash_balance,inventory_value
+request_id,request_date,job,event,request,response,fulfilled,fulfillment,reason,cash_balance,inventory_value
 1,2025-04-01,office manager,ceremony,"I would like to request the following paper supplies for the ceremony: 
 
 - 200 sheets of A4 glossy paper
@@ -14,7 +14,7 @@ I need these supplies delivered by April 15, 2025. Thank you.","Hello! Here is y
 Quoted total (priced lines only): $63.70.
 Earliest delivery for the priced items: 2025-04-05.
 
-Bulk discounts in this quote are applied automatically once a line crosses 100, 500, 1 000, 5 000 or 10 000 units.",True,,45123.4,4875.3
+Bulk discounts in this quote are applied automatically once a line crosses 100, 500, 1 000, 5 000 or 10 000 units.",True,fully_fulfilled,,45123.4,4875.3
 2,2025-04-03,hotel manager,parade,"I would like to place an order for 500 sheets of colorful poster paper, 300 roll of streamers, and 200 balloons for the parade. Please deliver the supplies by April 15, 2025. Thank you.","Hello! Here is your quote for the parade (requested 2025-04-03):
 
 
@@ -23,7 +23,7 @@ Items needing your input:
 
 We can't quote a final total yet because every line in this request needs a swap or a confirmation from you (see above). Reply with your choices and we'll send a finalised quote the same day.
 
-Where an item is unavailable today, we have suggested an in-stock alternative or a next step so the order can move forward without delay.",False,No line could be invoiced as-is; alternatives or a sales-team contact have been offered.,44998.4,4875.3
+Where an item is unavailable today, we have suggested an in-stock alternative or a next step so the order can move forward without delay.",False,not_fulfilled,No line could be invoiced as-is; alternatives or a sales-team contact have been offered.,44998.4,4875.3
 3,2025-04-04,school board resouorce manager,conference,"I need to order 10,000 sheets of A4 paper, 5,000 sheets of A3 paper, and 500 reams of printer paper. The supplies must be delivered by April 15, 2025, for our upcoming conference. Please confirm the order and delivery schedule.","Hello! Here is your quote for the conference (requested 2025-04-04):
 
 
@@ -32,17 +32,17 @@ Items needing your input:
 
 We can't quote a final total yet because every line in this request needs a swap or a confirmation from you (see above). Reply with your choices and we'll send a finalised quote the same day.
 
-Where an item is unavailable today, we have suggested an in-stock alternative or a next step so the order can move forward without delay.",False,No line could be invoiced as-is; alternatives or a sales-team contact have been offered.,44512.0,5361.7
+Where an item is unavailable today, we have suggested an in-stock alternative or a next step so the order can move forward without delay.",False,not_fulfilled,No line could be invoiced as-is; alternatives or a sales-team contact have been offered.,44512.0,5361.7
 4,2025-04-05,non-profit director,reception,"I need 500 sheets of high-quality, recycled cardstock in various colors for our reception, along with 250 sheets of A4 size printer paper. I need the order delivered by April 15, 2025.","Hello! Here is your quote for the reception (requested 2025-04-05):
 
 
 Items needing your input:
-  · 500 × high-quality: not part of our standard catalogue. Please reply or email sales@beavers-choice.example so we can source it for you separately.
+  · 500 × high-quality: not part of our standard catalogue. Reply or email sales@beavers-choice.example so we can source it for you separately.
 
 We can't quote a final total yet because every line in this request needs a swap or a confirmation from you (see above). Reply with your choices and we'll send a finalised quote the same day.
 
-Where an item is unavailable today, we have suggested an in-stock alternative or a next step so the order can move forward without delay.",False,No line could be invoiced as-is; alternatives or a sales-team contact have been offered.,44512.0,5361.7
-5,2025-04-05,school teacher,party,"I would like to place an order for 500 sheets of 8.5""x11"" colored paper, 300 sheets of cardstock in various colors, and 200 rolls of decorative washi tape. I need these supplies delivered by April 15, 2025, for an upcoming party. Thank you!",Hello! Thank you for your enquiry for the party on 2025-04-05. We weren't able to identify specific items and quantities in your message — could you reply with the exact items (and quantity per item) you'd like quoted?,False,No line could be invoiced as-is; alternatives or a sales-team contact have been offered.,44512.0,5361.7
+Where an item is unavailable today, we have suggested an in-stock alternative or a next step so the order can move forward without delay.",False,not_fulfilled,No line could be invoiced as-is; alternatives or a sales-team contact have been offered.,44512.0,5361.7
+5,2025-04-05,school teacher,party,"I would like to place an order for 500 sheets of 8.5""x11"" colored paper, 300 sheets of cardstock in various colors, and 200 rolls of decorative washi tape. I need these supplies delivered by April 15, 2025, for an upcoming party. Thank you!",Hello! Thank you for your enquiry for the party on 2025-04-05. We weren't able to identify specific items and quantities in your message — could you reply with the exact items (and quantity per item) you'd like quoted?,False,not_fulfilled,No line could be invoiced as-is; alternatives or a sales-team contact have been offered.,44512.0,5361.7
 6,2025-04-06,school teacher,assembly,"I would like to order 500 sheets of colorful construction paper, 300 sheets of white printer paper, and 200 sheets of cardstock in various colors. We need these supplies delivered by April 15, 2025, for our upcoming assembly.","Hello! Here is your quote for the assembly (requested 2025-04-06):
 
 
@@ -51,7 +51,7 @@ Items needing your input:
 
 We can't quote a final total yet because every line in this request needs a swap or a confirmation from you (see above). Reply with your choices and we'll send a finalised quote the same day.
 
-Where an item is unavailable today, we have suggested an in-stock alternative or a next step so the order can move forward without delay.",False,No line could be invoiced as-is; alternatives or a sales-team contact have been offered.,44477.0,5361.7
+Where an item is unavailable today, we have suggested an in-stock alternative or a next step so the order can move forward without delay.",False,not_fulfilled,No line could be invoiced as-is; alternatives or a sales-team contact have been offered.,44477.0,5361.7
 7,2025-04-07,business owner,exhibition,"I would like to place a large order for various types of paper supplies for our upcoming exhibition. We need the following items:
 
 - 500 sheets of glossy A4 paper
@@ -65,12 +65,12 @@ We need these supplies delivered by April 15, 2025. Thank you.","Hello! Here is 
   · 200 × Cardstock @ $0.15 = $30.00, less 2% bulk discount = $29.40
 
 Items needing your input:
-  · 1000 × matte a3 paper: not part of our standard catalogue. A close alternative we currently carry is **A4 paper** — happy to re-quote with that if it works for you.
+  · 1000 × Matte paper: currently unavailable in the requested quantity. Earliest restock by 2025-04-11, OR we can swap to **A4 paper** which is in stock today — let us know which you prefer.
 
 Quoted total (priced lines only): $53.15.
 Earliest delivery for the priced items: 2025-04-11.
 
-Bulk discounts in this quote are applied automatically once a line crosses 100, 500, 1 000, 5 000 or 10 000 units. Where an item is unavailable today, we have suggested an in-stock alternative or a next step so the order can move forward without delay.",False,Partially fulfilled — some lines need a customer choice (alternative offered).,44530.15,5306.7
+Bulk discounts in this quote are applied automatically once a line crosses 100, 500, 1 000, 5 000 or 10 000 units. Where an item is unavailable today, we have suggested an in-stock alternative or a next step so the order can move forward without delay.",False,partial,Some lines invoiced; others need a customer choice (alternative or restock ETA offered).,44350.15,5306.7
 8,2025-04-07,school board resouorce manager,ceremony,"I would like to place a large order for the following paper supplies for an upcoming ceremony: 
 
 - 500 sheets of A4 glossy paper 
@@ -80,16 +80,17 @@ Bulk discounts in this quote are applied automatically once a line crosses 100, 
 
 Please ensure delivery by April 15, 2025. Thank you.","Hello! Here is your quote for the ceremony (requested 2025-04-07):
 
+  · 1000 × Matte paper @ $0.18 = $180.00, less 7% bulk discount = $167.40
 
 Items needing your input:
   · 500 × Glossy paper: currently unavailable in the requested quantity. Earliest restock by 2025-04-11, OR we can swap to **A4 paper** which is in stock today — let us know which you prefer.
-  · 1000 × Matte paper: currently unavailable in the requested quantity. Earliest restock by 2025-04-11, OR we can swap to **A4 paper** which is in stock today — let us know which you prefer.
   · 2000 × Colored paper: currently unavailable in the requested quantity. Earliest restock by 2025-04-14, OR we can swap to **A4 paper** which is in stock today — let us know which you prefer.
   · 3000 × Recycled paper: currently unavailable in the requested quantity. Earliest restock by 2025-04-14, OR we can swap to **A4 paper** which is in stock today — let us know which you prefer.
 
-We can't quote a final total yet because every line in this request needs a swap or a confirmation from you (see above). Reply with your choices and we'll send a finalised quote the same day.
+Quoted total (priced lines only): $167.40.
+Earliest delivery for the priced items: 2025-04-11.
 
-Where an item is unavailable today, we have suggested an in-stock alternative or a next step so the order can move forward without delay.",False,No line could be invoiced as-is; alternatives or a sales-team contact have been offered.,43956.35,5460.5
+Bulk discounts in this quote are applied automatically once a line crosses 100, 500, 1 000, 5 000 or 10 000 units. Where an item is unavailable today, we have suggested an in-stock alternative or a next step so the order can move forward without delay.",False,partial,Some lines invoiced; others need a customer choice (alternative or restock ETA offered).,44123.75,5460.5
 9,2025-04-07,city hall clerk,reception,"I would like to place an order for the following paper supplies for the reception: 
 
 - 200 sheets of A4 white printer paper
@@ -98,15 +99,13 @@ Where an item is unavailable today, we have suggested an in-stock alternative or
 
 I need these supplies delivered by April 10, 2025. Thank you.","Hello! Here is your quote for the reception (requested 2025-04-07):
 
+  · 200 × A4 paper @ $0.05 = $10.00, less 2% bulk discount = $9.80
   · 100 × Glossy paper @ $0.20 = $20.00, less 2% bulk discount = $19.60
 
-Items needing your input:
-  · 200 × Standard copy paper: currently unavailable in the requested quantity. Earliest restock by 2025-04-11, OR we can swap to **A4 paper** which is in stock today — let us know which you prefer.
+Quoted total (priced lines only): $29.40.
+Earliest delivery for the priced items: 2025-04-11.
 
-Quoted total (priced lines only): $19.60.
-Earliest delivery for the priced items: 2025-04-08.
-
-Bulk discounts in this quote are applied automatically once a line crosses 100, 500, 1 000, 5 000 or 10 000 units. Where an item is unavailable today, we have suggested an in-stock alternative or a next step so the order can move forward without delay.",False,Partially fulfilled — some lines need a customer choice (alternative offered).,43967.95,5440.5
+Bulk discounts in this quote are applied automatically once a line crosses 100, 500, 1 000, 5 000 or 10 000 units.",True,fully_fulfilled,,44153.15,5430.5
 10,2025-04-08,school principal,gathering,"I would like to order 500 sheets of A4 printing paper and 200 sheets of cardstock for our upcoming gathering. Please deliver the supplies by April 10, 2025.","Hello! Here is your quote for the gathering (requested 2025-04-08):
 
 
@@ -115,7 +114,7 @@ Items needing your input:
 
 We can't quote a final total yet because every line in this request needs a swap or a confirmation from you (see above). Reply with your choices and we'll send a finalised quote the same day.
 
-Where an item is unavailable today, we have suggested an in-stock alternative or a next step so the order can move forward without delay.",False,No line could be invoiced as-is; alternatives or a sales-team contact have been offered.,43937.2,5471.25
+Where an item is unavailable today, we have suggested an in-stock alternative or a next step so the order can move forward without delay.",False,not_fulfilled,No line could be invoiced as-is; alternatives or a sales-team contact have been offered.,44122.4,5461.25
 11,2025-04-08,city hall clerk,party,"I would like to order 200 sheets of colorful cardstock, 500 sheets of standard printer paper, and 100 paper napkins for our upcoming party. Please deliver these supplies by April 15, 2025.","Hello! Here is your quote for the party (requested 2025-04-08):
 
   · 200 × Cardstock @ $0.15 = $30.00, less 2% bulk discount = $29.40
@@ -123,24 +122,24 @@ Where an item is unavailable today, we have suggested an in-stock alternative or
 Quoted total (priced lines only): $29.40.
 Earliest delivery for the priced items: 2025-04-12.
 
-Bulk discounts in this quote are applied automatically once a line crosses 100, 500, 1 000, 5 000 or 10 000 units.",True,,43966.6,5441.25
+Bulk discounts in this quote are applied automatically once a line crosses 100, 500, 1 000, 5 000 or 10 000 units.",True,fully_fulfilled,,44151.8,5431.25
 12,2025-04-08,business owner,show,"I would like to place an order for 500 sheets of high-quality glossy paper and 300 sheets of sturdy cardstock for our upcoming show. We need the supplies delivered by April 15, 2025.","Hello! Here is your quote for the show (requested 2025-04-08):
 
 
 Items needing your input:
-  · 500 × Cardstock: currently unavailable in the requested quantity. Earliest restock by 2025-04-12, OR we can swap to **A4 paper** which is in stock today — let us know which you prefer.
+  · 500 × Glossy paper: currently unavailable in the requested quantity. Earliest restock by 2025-04-09, OR we can swap to **A4 paper** which is in stock today — let us know which you prefer.
 
 We can't quote a final total yet because every line in this request needs a swap or a confirmation from you (see above). Reply with your choices and we'll send a finalised quote the same day.
 
-Where an item is unavailable today, we have suggested an in-stock alternative or a next step so the order can move forward without delay.",False,No line could be invoiced as-is; alternatives or a sales-team contact have been offered.,43936.6,5471.25
+Where an item is unavailable today, we have suggested an in-stock alternative or a next step so the order can move forward without delay.",False,not_fulfilled,No line could be invoiced as-is; alternatives or a sales-team contact have been offered.,44131.8,5451.25
 13,2025-04-08,event manager,exhibition,"I would like to order 500 sheets of A3 glossy paper and 300 sheets of A4 matte paper for our exhibition. The supplies are needed by April 15, 2025. Thank you.","Hello! Here is your quote for the exhibition (requested 2025-04-08):
 
-  · 500 × Matte paper @ $0.18 = $90.00, less 5% bulk discount = $85.50
+  · 500 × Glossy paper @ $0.20 = $100.00, less 5% bulk discount = $95.00
 
-Quoted total (priced lines only): $85.50.
+Quoted total (priced lines only): $95.00.
 Earliest delivery for the priced items: 2025-04-12.
 
-Bulk discounts in this quote are applied automatically once a line crosses 100, 500, 1 000, 5 000 or 10 000 units.",True,,44022.1,5471.25
+Bulk discounts in this quote are applied automatically once a line crosses 100, 500, 1 000, 5 000 or 10 000 units.",True,fully_fulfilled,,44226.8,5351.25
 14,2025-04-09,city hall clerk,performance,"I would like to place a large order for high-quality paper supplies for our upcoming performance. We need 5,000 sheets of A4 paper, 2,000 sheets of poster paper in various colors, and 500 sheets of cardstock. Please deliver these supplies by April 15, 2025. Thank you.","Hello! Here is your quote for the performance (requested 2025-04-09):
 
   · 5000 × A4 paper @ $0.05 = $250.00, less 10% bulk discount = $225.00
@@ -148,7 +147,7 @@ Bulk discounts in this quote are applied automatically once a line crosses 100, 
 Quoted total (priced lines only): $225.00.
 Earliest delivery for the priced items: 2025-04-16.
 
-Bulk discounts in this quote are applied automatically once a line crosses 100, 500, 1 000, 5 000 or 10 000 units.",True,,44247.1,5221.25
+Bulk discounts in this quote are applied automatically once a line crosses 100, 500, 1 000, 5 000 or 10 000 units.",True,fully_fulfilled,,44451.8,5101.25
 15,2025-04-12,event manager,demonstration,"I would like to place a large order for high-quality paper supplies for our upcoming demonstration. Please provide the following:
 
 - 10,000 sheets of A4 white paper
@@ -159,22 +158,21 @@ I need these supplies delivered by April 15, 2025. Thank you.","Hello! Here is y
 
 
 Items needing your input:
-  · 10000 × a4 white paper: not part of our standard catalogue. Please reply or email sales@beavers-choice.example so we can source it for you separately.
-  · 5000 × Colored paper: currently unavailable in the requested quantity. Earliest restock by 2025-04-19; reply to confirm we should hold the order until then or email sales for an interim option.
-  · 500 × cardboard for signage: not part of our standard catalogue. A close alternative we currently carry is **Invitation cards** — happy to re-quote with that if it works for you.
+  · 10000 × A4 paper: currently unavailable in the requested quantity. Earliest restock by 2025-04-19; reply to confirm we should hold the order until then or email sales for an interim option.
+  · 5000 × Colored paper: currently unavailable in the requested quantity. Earliest restock by 2025-04-19, OR we can swap to **A4 paper** which is in stock today — let us know which you prefer.
+  · 500 × cardboard for signage: not part of our standard catalogue. Reply or email sales@beavers-choice.example so we can source it for you separately.
 
 We can't quote a final total yet because every line in this request needs a swap or a confirmation from you (see above). Reply with your choices and we'll send a finalised quote the same day.
 
-Where an item is unavailable today, we have suggested an in-stock alternative or a next step so the order can move forward without delay.",False,No line could be invoiced as-is; alternatives or a sales-team contact have been offered.,43947.1,5521.25
+Where an item is unavailable today, we have suggested an in-stock alternative or a next step so the order can move forward without delay.",False,not_fulfilled,No line could be invoiced as-is; alternatives or a sales-team contact have been offered.,43866.8,5686.25
 16,2025-04-13,school teacher,assembly,"I would like to place an order for 500 sheets of A4 printer paper, 200 sheets of colorful construction paper, and 100 sheets of poster board. I need these supplies delivered by April 15, 2025, in time for our assembly event.","Hello! Here is your quote for the assembly (requested 2025-04-13):
 
+  · 500 × A4 paper @ $0.05 = $25.00, less 5% bulk discount = $23.75
 
-Items needing your input:
-  · 500 × Standard copy paper: currently unavailable in the requested quantity. Earliest restock by 2025-04-17, OR we can swap to **A4 paper** which is in stock today — let us know which you prefer.
+Quoted total (priced lines only): $23.75.
+Earliest delivery for the priced items: 2025-04-17.
 
-We can't quote a final total yet because every line in this request needs a swap or a confirmation from you (see above). Reply with your choices and we'll send a finalised quote the same day.
-
-Where an item is unavailable today, we have suggested an in-stock alternative or a next step so the order can move forward without delay.",False,No line could be invoiced as-is; alternatives or a sales-team contact have been offered.,43935.1,5521.25
+Bulk discounts in this quote are applied automatically once a line crosses 100, 500, 1 000, 5 000 or 10 000 units.",True,fully_fulfilled,,43890.55,5661.25
 17,2025-04-14,restaurant manager,reception,"I would like to place a medium order for the following paper supplies for our upcoming reception:
 
 - 1000 sheets of A4 white printer paper
@@ -185,23 +183,22 @@ Where an item is unavailable today, we have suggested an in-stock alternative or
 
 I need these supplies delivered by April 15, 2025. Thank you.","Hello! Here is your quote for the reception (requested 2025-04-14):
 
+  · 1000 × A4 paper @ $0.05 = $50.00, less 7% bulk discount = $46.50
   · 500 × Colored paper @ $0.10 = $50.00, less 5% bulk discount = $47.50
 
-Items needing your input:
-  · 1000 × Standard copy paper: currently unavailable in the requested quantity. Earliest restock by 2025-04-18, OR we can swap to **A4 paper** which is in stock today — let us know which you prefer.
-
-Quoted total (priced lines only): $47.50.
+Quoted total (priced lines only): $94.00.
 Earliest delivery for the priced items: 2025-04-18.
 
-Bulk discounts in this quote are applied automatically once a line crosses 100, 500, 1 000, 5 000 or 10 000 units. Where an item is unavailable today, we have suggested an in-stock alternative or a next step so the order can move forward without delay.",False,Partially fulfilled — some lines need a customer choice (alternative offered).,43962.6,5471.25
+Bulk discounts in this quote are applied automatically once a line crosses 100, 500, 1 000, 5 000 or 10 000 units.",True,fully_fulfilled,,43984.55,5561.25
 18,2025-04-14,office manager,ceremony,"I would like to place a medium order for the following paper supplies for our upcoming ceremony: 500 sheets of high-quality white cardstock, 1000 sheets of standard printing paper, and 200 sheets of colored paper in assorted colors. I need these supplies delivered by April 15, 2025.","Hello! Here is your quote for the ceremony (requested 2025-04-14):
 
-  · 500 × Cardstock @ $0.15 = $75.00, less 5% bulk discount = $71.25
 
-Quoted total (priced lines only): $71.25.
-Earliest delivery for the priced items: 2025-04-18.
+Items needing your input:
+  · 500 × Cardstock: currently unavailable in the requested quantity. Earliest restock by 2025-04-18, OR we can swap to **A4 paper** which is in stock today — let us know which you prefer.
 
-Bulk discounts in this quote are applied automatically once a line crosses 100, 500, 1 000, 5 000 or 10 000 units.",True,,44033.85,5396.25
+We can't quote a final total yet because every line in this request needs a swap or a confirmation from you (see above). Reply with your choices and we'll send a finalised quote the same day.
+
+Where an item is unavailable today, we have suggested an in-stock alternative or a next step so the order can move forward without delay.",False,not_fulfilled,No line could be invoiced as-is; alternatives or a sales-team contact have been offered.,43954.55,5591.25
 19,2025-04-15,city hall clerk,exhibition,"Dear [Manufacturer's Name],
 
 I would like to place an order for the following paper supplies for our upcoming exhibition:
@@ -217,10 +214,10 @@ Thank you!","Hello! Here is your quote for the exhibition (requested 2025-04-15)
 
 Items needing your input:
   · 2000 × Glossy paper: currently unavailable in the requested quantity. Earliest restock by 2025-04-22, OR we can swap to **A4 paper** which is in stock today — let us know which you prefer.
-  · 1500 × Matte paper: currently unavailable in the requested quantity. Earliest restock by 2025-04-19, OR we can swap to **A4 paper** which is in stock today — let us know which you prefer.
+  · 1500 × Matte paper: currently unavailable in the requested quantity. Earliest restock by 2025-04-22, OR we can swap to **A4 paper** which is in stock today — let us know which you prefer.
   · 1000 × Cardstock: currently unavailable in the requested quantity. Earliest restock by 2025-04-19, OR we can swap to **A4 paper** which is in stock today — let us know which you prefer.
 
 We can't quote a final total yet because every line in this request needs a swap or a confirmation from you (see above). Reply with your choices and we'll send a finalised quote the same day.
 
-Where an item is unavailable today, we have suggested an in-stock alternative or a next step so the order can move forward without delay.",False,No line could be invoiced as-is; alternatives or a sales-team contact have been offered.,43383.85,5866.25
-20,2025-04-17,restaurant manager,concert,"I would like to place a large order for the following paper supplies for our upcoming concert: 5,000 flyers, 2,000 posters, and 10,000 tickets. We need these items delivered by May 15, 2025, to ensure adequate time for distribution and promotion. Thank you!",Hello! Thank you for your enquiry for the concert on 2025-04-17. We weren't able to identify specific items and quantities in your message — could you reply with the exact items (and quantity per item) you'd like quoted?,False,No line could be invoiced as-is; alternatives or a sales-team contact have been offered.,43383.85,5866.25
+Where an item is unavailable today, we have suggested an in-stock alternative or a next step so the order can move forward without delay.",False,not_fulfilled,No line could be invoiced as-is; alternatives or a sales-team contact have been offered.,43209.55,6066.25
+20,2025-04-17,restaurant manager,concert,"I would like to place a large order for the following paper supplies for our upcoming concert: 5,000 flyers, 2,000 posters, and 10,000 tickets. We need these items delivered by May 15, 2025, to ensure adequate time for distribution and promotion. Thank you!",Hello! Thank you for your enquiry for the concert on 2025-04-17. We weren't able to identify specific items and quantities in your message — could you reply with the exact items (and quantity per item) you'd like quoted?,False,not_fulfilled,No line could be invoiced as-is; alternatives or a sales-team contact have been offered.,43209.55,6066.25
