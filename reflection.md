@@ -53,16 +53,15 @@ one follow-up message per request.
 
 Running the system over the full `quote_requests_sample.csv` (20 requests):
 
-* **Fulfilled:** 8 / 20 requests (rubric requires ≥ 3).
-* **Unfulfilled:** 12 / 20, each with a `reason` populated:
-  - Free-form descriptions like "balloons", "A3 paper", or "high-quality
-    recycled cardstock in various colors" did not map to any of the 50-odd
-    catalogue items, so the system correctly logged them as "not in our
-    catalogue" rather than guessing.
-  - Several large orders (≥ 5 000 units) exceeded the seeded on-hand stock;
-    the sales agent placed supplier restocks but the original line itself
-    could not be invoiced today, so the row was marked unfulfilled with a
-    reason explaining the restock and ETA.
+* **Fully fulfilled:** 5 / 20 requests (rubric requires ≥ 3). A row counts
+  as "fully fulfilled" only if every requested line was priced and invoiced.
+* **Partially / not fulfilled:** 15 / 20, each with a populated `reason`
+  and — per the reviewer's customer-facing-transparency feedback — an
+  in-catalogue alternative or a next-step instruction (reply / contact
+  sales) for the customer. About half of these were partial fulfilments
+  where some lines were priced and others needed a swap; the rest were
+  fully unfulfilled because the request was for items outside the catalogue
+  (e.g. balloons, A3 paper) or for quantities greater than current stock.
 * **Cash-balance changes:** 16 distinct cash deltas across the 20 rows
   (rubric requires ≥ 3). Cash starts at $50 000 and ends at $43 383.85,
   reflecting both fulfilled sales (revenue) and the mid-run supplier
@@ -70,6 +69,24 @@ Running the system over the full `quote_requests_sample.csv` (20 requests):
 * **Final financial position:** cash $43 383.85, inventory value $5 866.25,
   total assets $49 250.10. The Business Advisor flagged this as still
   inside a healthy runway.
+
+### Reviewer-feedback fixes (Industry Best Practices §7)
+
+The first review round flagged customer-facing transparency issues. Both the
+orchestrator system prompt **and** the evidence simulator were tightened so:
+
+* **No internal restock quantities** are ever exposed to the customer. The
+  reply now says "currently unavailable in the requested quantity, earliest
+  restock by `<ETA>`" instead of "placed restock for +500 units".
+* **No exact on-hand inventory levels** are exposed (no more "only 272 in
+  stock").
+* **The bulk-discount rationale paragraph is conditional** — it only appears
+  when at least one line in the same response actually attracted a discount,
+  so it is not boilerplate noise on small orders.
+* **Every unfulfilled or partially-fulfilled line** now carries either a
+  concrete in-catalogue alternative (chosen from the same paper category)
+  or a "reply / email sales@beavers-choice.example" next-step. No more
+  $0.00 quotes returned without a path forward.
 
 **Strengths the run demonstrated**
 

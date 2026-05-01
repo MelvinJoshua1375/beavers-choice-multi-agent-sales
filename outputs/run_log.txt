@@ -7,16 +7,16 @@ Cash before:      $45,059.70
 Inventory before: $4,940.30
 
 Response:
-Hello! Here is the quote for your ceremony order (request received 2025-04-01):
+Hello! Here is your quote for the ceremony (requested 2025-04-01):
 
-  · 200 × Glossy paper @ $0.20/unit = $40.00, less 2% bulk discount = $39.20
-  · 100 × Cardstock @ $0.15/unit = $15.00, less 2% bulk discount = $14.70
-  · 100 × Colored paper @ $0.10/unit = $10.00, less 2% bulk discount = $9.80
+  · 200 × Glossy paper @ $0.20 = $40.00, less 2% bulk discount = $39.20
+  · 100 × Cardstock @ $0.15 = $15.00, less 2% bulk discount = $14.70
+  · 100 × Colored paper @ $0.10 = $10.00, less 2% bulk discount = $9.80
 
-Quoted total (after bulk discounts): $63.70.
-Earliest delivery commitment: 2025-04-05.
+Quoted total (priced lines only): $63.70.
+Earliest delivery for the priced items: 2025-04-05.
 
-Quote rationale: pricing is computed from our published unit rates with a tiered bulk-discount ladder (2% from 100 units, scaling up to 15% at 10,000+ units). Where stock is insufficient we have already placed supplier restocks so we can honour the order on the listed ETA.
+Bulk discounts in this quote are applied automatically once a line crosses 100, 500, 1 000, 5 000 or 10 000 units.
 
 Cash after:       $45,123.40  (Δ $+63.70)
 Inventory after:  $4,875.30
@@ -30,16 +30,15 @@ Cash before:      $45,123.40
 Inventory before: $4,875.30
 
 Response:
-Hello! Here is the quote for your parade order (request received 2025-04-03):
+Hello! Here is your quote for the parade (requested 2025-04-03):
 
 
-Items requiring follow-up:
-  · 500 × Poster paper: out of stock; placed a supplier restock (+500 units, ETA 2025-04-07).
+Items needing your input:
+  · 500 × Poster paper: currently unavailable in the requested quantity. Earliest restock by 2025-04-07, OR we can swap to **Colored paper** which is in stock today — let us know which you prefer.
 
-Quoted total (after bulk discounts): $0.00.
-Earliest delivery commitment: n/a.
+We can't quote a final total yet because every line in this request needs a swap or a confirmation from you (see above). Reply with your choices and we'll send a finalised quote the same day.
 
-Quote rationale: pricing is computed from our published unit rates with a tiered bulk-discount ladder (2% from 100 units, scaling up to 15% at 10,000+ units). Where stock is insufficient we have already placed supplier restocks so we can honour the order on the listed ETA.
+Where an item is unavailable today, we have suggested an in-stock alternative or a next step so the order can move forward without delay.
 
 Cash after:       $44,998.40  (Δ $-125.00)
 Inventory after:  $4,875.30
@@ -53,16 +52,15 @@ Cash before:      $44,998.40
 Inventory before: $4,875.30
 
 Response:
-Hello! Here is the quote for your conference order (request received 2025-04-04):
+Hello! Here is your quote for the conference (requested 2025-04-04):
 
 
-Items requiring follow-up:
-  · 10000 × A4 paper: only 272 in stock; placed restock for 9728 more (ETA 2025-04-11).
+Items needing your input:
+  · 10000 × A4 paper: currently unavailable in the requested quantity. Earliest restock by 2025-04-11; reply to confirm we should hold the order until then or email sales for an interim option.
 
-Quoted total (after bulk discounts): $0.00.
-Earliest delivery commitment: n/a.
+We can't quote a final total yet because every line in this request needs a swap or a confirmation from you (see above). Reply with your choices and we'll send a finalised quote the same day.
 
-Quote rationale: pricing is computed from our published unit rates with a tiered bulk-discount ladder (2% from 100 units, scaling up to 15% at 10,000+ units). Where stock is insufficient we have already placed supplier restocks so we can honour the order on the listed ETA.
+Where an item is unavailable today, we have suggested an in-stock alternative or a next step so the order can move forward without delay.
 
 Cash after:       $44,512.00  (Δ $-486.40)
 Inventory after:  $5,361.70
@@ -76,16 +74,15 @@ Cash before:      $44,512.00
 Inventory before: $5,361.70
 
 Response:
-Hello! Here is the quote for your reception order (request received 2025-04-05):
+Hello! Here is your quote for the reception (requested 2025-04-05):
 
 
-Items requiring follow-up:
-  · 500 × high-quality: not in our catalogue.
+Items needing your input:
+  · 500 × high-quality: not part of our standard catalogue. Please reply or email sales@beavers-choice.example so we can source it for you separately.
 
-Quoted total (after bulk discounts): $0.00.
-Earliest delivery commitment: n/a.
+We can't quote a final total yet because every line in this request needs a swap or a confirmation from you (see above). Reply with your choices and we'll send a finalised quote the same day.
 
-Quote rationale: pricing is computed from our published unit rates with a tiered bulk-discount ladder (2% from 100 units, scaling up to 15% at 10,000+ units). Where stock is insufficient we have already placed supplier restocks so we can honour the order on the listed ETA.
+Where an item is unavailable today, we have suggested an in-stock alternative or a next step so the order can move forward without delay.
 
 Cash after:       $44,512.00  (Δ $+0.00)
 Inventory after:  $5,361.70
@@ -99,14 +96,7 @@ Cash before:      $44,512.00
 Inventory before: $5,361.70
 
 Response:
-Hello! Here is the quote for your party order (request received 2025-04-05):
-
-  · Could not detect specific items/quantities; please provide exact item names and quantities for a precise quote.
-
-Quoted total (after bulk discounts): $0.00.
-Earliest delivery commitment: n/a.
-
-Quote rationale: pricing is computed from our published unit rates with a tiered bulk-discount ladder (2% from 100 units, scaling up to 15% at 10,000+ units). Where stock is insufficient we have already placed supplier restocks so we can honour the order on the listed ETA.
+Hello! Thank you for your enquiry for the party on 2025-04-05. We weren't able to identify specific items and quantities in your message — could you reply with the exact items (and quantity per item) you'd like quoted?
 
 Cash after:       $44,512.00  (Δ $+0.00)
 Inventory after:  $5,361.70
@@ -122,16 +112,15 @@ Cash before:      $44,512.00
 Inventory before: $5,361.70
 
 Response:
-Hello! Here is the quote for your assembly order (request received 2025-04-06):
+Hello! Here is your quote for the assembly (requested 2025-04-06):
 
 
-Items requiring follow-up:
-  · 500 × Construction paper: out of stock; placed a supplier restock (+500 units, ETA 2025-04-10).
+Items needing your input:
+  · 500 × Construction paper: currently unavailable in the requested quantity. Earliest restock by 2025-04-10, OR we can swap to **A4 paper** which is in stock today — let us know which you prefer.
 
-Quoted total (after bulk discounts): $0.00.
-Earliest delivery commitment: n/a.
+We can't quote a final total yet because every line in this request needs a swap or a confirmation from you (see above). Reply with your choices and we'll send a finalised quote the same day.
 
-Quote rationale: pricing is computed from our published unit rates with a tiered bulk-discount ladder (2% from 100 units, scaling up to 15% at 10,000+ units). Where stock is insufficient we have already placed supplier restocks so we can honour the order on the listed ETA.
+Where an item is unavailable today, we have suggested an in-stock alternative or a next step so the order can move forward without delay.
 
 Cash after:       $44,477.00  (Δ $-35.00)
 Inventory after:  $5,361.70
@@ -145,18 +134,18 @@ Cash before:      $44,477.00
 Inventory before: $5,361.70
 
 Response:
-Hello! Here is the quote for your exhibition order (request received 2025-04-07):
+Hello! Here is your quote for the exhibition (requested 2025-04-07):
 
-  · 500 × A4 paper @ $0.05/unit = $25.00, less 5% bulk discount = $23.75
-  · 200 × Cardstock @ $0.15/unit = $30.00, less 2% bulk discount = $29.40
+  · 500 × A4 paper @ $0.05 = $25.00, less 5% bulk discount = $23.75
+  · 200 × Cardstock @ $0.15 = $30.00, less 2% bulk discount = $29.40
 
-Items requiring follow-up:
-  · 1000 × matte a3 paper: not in our catalogue.
+Items needing your input:
+  · 1000 × matte a3 paper: not part of our standard catalogue. A close alternative we currently carry is **A4 paper** — happy to re-quote with that if it works for you.
 
-Quoted total (after bulk discounts): $53.15.
-Earliest delivery commitment: 2025-04-11.
+Quoted total (priced lines only): $53.15.
+Earliest delivery for the priced items: 2025-04-11.
 
-Quote rationale: pricing is computed from our published unit rates with a tiered bulk-discount ladder (2% from 100 units, scaling up to 15% at 10,000+ units). Where stock is insufficient we have already placed supplier restocks so we can honour the order on the listed ETA.
+Bulk discounts in this quote are applied automatically once a line crosses 100, 500, 1 000, 5 000 or 10 000 units. Where an item is unavailable today, we have suggested an in-stock alternative or a next step so the order can move forward without delay.
 
 Cash after:       $44,530.15  (Δ $+53.15)
 Inventory after:  $5,306.70
@@ -170,19 +159,18 @@ Cash before:      $44,530.15
 Inventory before: $5,306.70
 
 Response:
-Hello! Here is the quote for your ceremony order (request received 2025-04-07):
+Hello! Here is your quote for the ceremony (requested 2025-04-07):
 
 
-Items requiring follow-up:
-  · 500 × Glossy paper: only 387 in stock; placed restock for 113 more (ETA 2025-04-11).
-  · 1000 × Matte paper: out of stock; placed a supplier restock (+1000 units, ETA 2025-04-11).
-  · 2000 × Colored paper: only 688 in stock; placed restock for 1312 more (ETA 2025-04-14).
-  · 3000 × Recycled paper: out of stock; placed a supplier restock (+3000 units, ETA 2025-04-14).
+Items needing your input:
+  · 500 × Glossy paper: currently unavailable in the requested quantity. Earliest restock by 2025-04-11, OR we can swap to **A4 paper** which is in stock today — let us know which you prefer.
+  · 1000 × Matte paper: currently unavailable in the requested quantity. Earliest restock by 2025-04-11, OR we can swap to **A4 paper** which is in stock today — let us know which you prefer.
+  · 2000 × Colored paper: currently unavailable in the requested quantity. Earliest restock by 2025-04-14, OR we can swap to **A4 paper** which is in stock today — let us know which you prefer.
+  · 3000 × Recycled paper: currently unavailable in the requested quantity. Earliest restock by 2025-04-14, OR we can swap to **A4 paper** which is in stock today — let us know which you prefer.
 
-Quoted total (after bulk discounts): $0.00.
-Earliest delivery commitment: n/a.
+We can't quote a final total yet because every line in this request needs a swap or a confirmation from you (see above). Reply with your choices and we'll send a finalised quote the same day.
 
-Quote rationale: pricing is computed from our published unit rates with a tiered bulk-discount ladder (2% from 100 units, scaling up to 15% at 10,000+ units). Where stock is insufficient we have already placed supplier restocks so we can honour the order on the listed ETA.
+Where an item is unavailable today, we have suggested an in-stock alternative or a next step so the order can move forward without delay.
 
 Cash after:       $43,956.35  (Δ $-573.80)
 Inventory after:  $5,460.50
@@ -196,17 +184,17 @@ Cash before:      $43,956.35
 Inventory before: $5,460.50
 
 Response:
-Hello! Here is the quote for your reception order (request received 2025-04-07):
+Hello! Here is your quote for the reception (requested 2025-04-07):
 
-  · 100 × Glossy paper @ $0.20/unit = $20.00, less 2% bulk discount = $19.60
+  · 100 × Glossy paper @ $0.20 = $20.00, less 2% bulk discount = $19.60
 
-Items requiring follow-up:
-  · 200 × Standard copy paper: out of stock; placed a supplier restock (+200 units, ETA 2025-04-11).
+Items needing your input:
+  · 200 × Standard copy paper: currently unavailable in the requested quantity. Earliest restock by 2025-04-11, OR we can swap to **A4 paper** which is in stock today — let us know which you prefer.
 
-Quoted total (after bulk discounts): $19.60.
-Earliest delivery commitment: 2025-04-08.
+Quoted total (priced lines only): $19.60.
+Earliest delivery for the priced items: 2025-04-08.
 
-Quote rationale: pricing is computed from our published unit rates with a tiered bulk-discount ladder (2% from 100 units, scaling up to 15% at 10,000+ units). Where stock is insufficient we have already placed supplier restocks so we can honour the order on the listed ETA.
+Bulk discounts in this quote are applied automatically once a line crosses 100, 500, 1 000, 5 000 or 10 000 units. Where an item is unavailable today, we have suggested an in-stock alternative or a next step so the order can move forward without delay.
 
 Cash after:       $43,967.95  (Δ $+11.60)
 Inventory after:  $5,440.50
@@ -220,16 +208,15 @@ Cash before:      $43,967.95
 Inventory before: $5,440.50
 
 Response:
-Hello! Here is the quote for your gathering order (request received 2025-04-08):
+Hello! Here is your quote for the gathering (requested 2025-04-08):
 
 
-Items requiring follow-up:
-  · 500 × Cardstock: only 295 in stock; placed restock for 205 more (ETA 2025-04-12).
+Items needing your input:
+  · 500 × Cardstock: currently unavailable in the requested quantity. Earliest restock by 2025-04-12, OR we can swap to **A4 paper** which is in stock today — let us know which you prefer.
 
-Quoted total (after bulk discounts): $0.00.
-Earliest delivery commitment: n/a.
+We can't quote a final total yet because every line in this request needs a swap or a confirmation from you (see above). Reply with your choices and we'll send a finalised quote the same day.
 
-Quote rationale: pricing is computed from our published unit rates with a tiered bulk-discount ladder (2% from 100 units, scaling up to 15% at 10,000+ units). Where stock is insufficient we have already placed supplier restocks so we can honour the order on the listed ETA.
+Where an item is unavailable today, we have suggested an in-stock alternative or a next step so the order can move forward without delay.
 
 Cash after:       $43,937.20  (Δ $-30.75)
 Inventory after:  $5,471.25
@@ -245,14 +232,14 @@ Cash before:      $43,937.20
 Inventory before: $5,471.25
 
 Response:
-Hello! Here is the quote for your party order (request received 2025-04-08):
+Hello! Here is your quote for the party (requested 2025-04-08):
 
-  · 200 × Cardstock @ $0.15/unit = $30.00, less 2% bulk discount = $29.40
+  · 200 × Cardstock @ $0.15 = $30.00, less 2% bulk discount = $29.40
 
-Quoted total (after bulk discounts): $29.40.
-Earliest delivery commitment: 2025-04-12.
+Quoted total (priced lines only): $29.40.
+Earliest delivery for the priced items: 2025-04-12.
 
-Quote rationale: pricing is computed from our published unit rates with a tiered bulk-discount ladder (2% from 100 units, scaling up to 15% at 10,000+ units). Where stock is insufficient we have already placed supplier restocks so we can honour the order on the listed ETA.
+Bulk discounts in this quote are applied automatically once a line crosses 100, 500, 1 000, 5 000 or 10 000 units.
 
 Cash after:       $43,966.60  (Δ $+29.40)
 Inventory after:  $5,441.25
@@ -266,16 +253,15 @@ Cash before:      $43,966.60
 Inventory before: $5,441.25
 
 Response:
-Hello! Here is the quote for your show order (request received 2025-04-08):
+Hello! Here is your quote for the show (requested 2025-04-08):
 
 
-Items requiring follow-up:
-  · 500 × Cardstock: only 300 in stock; placed restock for 200 more (ETA 2025-04-12).
+Items needing your input:
+  · 500 × Cardstock: currently unavailable in the requested quantity. Earliest restock by 2025-04-12, OR we can swap to **A4 paper** which is in stock today — let us know which you prefer.
 
-Quoted total (after bulk discounts): $0.00.
-Earliest delivery commitment: n/a.
+We can't quote a final total yet because every line in this request needs a swap or a confirmation from you (see above). Reply with your choices and we'll send a finalised quote the same day.
 
-Quote rationale: pricing is computed from our published unit rates with a tiered bulk-discount ladder (2% from 100 units, scaling up to 15% at 10,000+ units). Where stock is insufficient we have already placed supplier restocks so we can honour the order on the listed ETA.
+Where an item is unavailable today, we have suggested an in-stock alternative or a next step so the order can move forward without delay.
 
 Cash after:       $43,936.60  (Δ $-30.00)
 Inventory after:  $5,471.25
@@ -289,14 +275,14 @@ Cash before:      $43,936.60
 Inventory before: $5,471.25
 
 Response:
-Hello! Here is the quote for your exhibition order (request received 2025-04-08):
+Hello! Here is your quote for the exhibition (requested 2025-04-08):
 
-  · 500 × Matte paper @ $0.18/unit = $90.00, less 5% bulk discount = $85.50
+  · 500 × Matte paper @ $0.18 = $90.00, less 5% bulk discount = $85.50
 
-Quoted total (after bulk discounts): $85.50.
-Earliest delivery commitment: 2025-04-12.
+Quoted total (priced lines only): $85.50.
+Earliest delivery for the priced items: 2025-04-12.
 
-Quote rationale: pricing is computed from our published unit rates with a tiered bulk-discount ladder (2% from 100 units, scaling up to 15% at 10,000+ units). Where stock is insufficient we have already placed supplier restocks so we can honour the order on the listed ETA.
+Bulk discounts in this quote are applied automatically once a line crosses 100, 500, 1 000, 5 000 or 10 000 units.
 
 Cash after:       $44,022.10  (Δ $+85.50)
 Inventory after:  $5,471.25
@@ -310,14 +296,14 @@ Cash before:      $44,022.10
 Inventory before: $5,471.25
 
 Response:
-Hello! Here is the quote for your performance order (request received 2025-04-09):
+Hello! Here is your quote for the performance (requested 2025-04-09):
 
-  · 5000 × A4 paper @ $0.05/unit = $250.00, less 10% bulk discount = $225.00
+  · 5000 × A4 paper @ $0.05 = $250.00, less 10% bulk discount = $225.00
 
-Quoted total (after bulk discounts): $225.00.
-Earliest delivery commitment: 2025-04-16.
+Quoted total (priced lines only): $225.00.
+Earliest delivery for the priced items: 2025-04-16.
 
-Quote rationale: pricing is computed from our published unit rates with a tiered bulk-discount ladder (2% from 100 units, scaling up to 15% at 10,000+ units). Where stock is insufficient we have already placed supplier restocks so we can honour the order on the listed ETA.
+Bulk discounts in this quote are applied automatically once a line crosses 100, 500, 1 000, 5 000 or 10 000 units.
 
 Cash after:       $44,247.10  (Δ $+225.00)
 Inventory after:  $5,221.25
@@ -331,18 +317,17 @@ Cash before:      $44,247.10
 Inventory before: $5,221.25
 
 Response:
-Hello! Here is the quote for your demonstration order (request received 2025-04-12):
+Hello! Here is your quote for the demonstration (requested 2025-04-12):
 
 
-Items requiring follow-up:
-  · 10000 × a4 white paper: not in our catalogue.
-  · 5000 × Colored paper: only 2000 in stock; placed restock for 3000 more (ETA 2025-04-19).
-  · 500 × cardboard for signage: not in our catalogue.
+Items needing your input:
+  · 10000 × a4 white paper: not part of our standard catalogue. Please reply or email sales@beavers-choice.example so we can source it for you separately.
+  · 5000 × Colored paper: currently unavailable in the requested quantity. Earliest restock by 2025-04-19; reply to confirm we should hold the order until then or email sales for an interim option.
+  · 500 × cardboard for signage: not part of our standard catalogue. A close alternative we currently carry is **Invitation cards** — happy to re-quote with that if it works for you.
 
-Quoted total (after bulk discounts): $0.00.
-Earliest delivery commitment: n/a.
+We can't quote a final total yet because every line in this request needs a swap or a confirmation from you (see above). Reply with your choices and we'll send a finalised quote the same day.
 
-Quote rationale: pricing is computed from our published unit rates with a tiered bulk-discount ladder (2% from 100 units, scaling up to 15% at 10,000+ units). Where stock is insufficient we have already placed supplier restocks so we can honour the order on the listed ETA.
+Where an item is unavailable today, we have suggested an in-stock alternative or a next step so the order can move forward without delay.
 
 Cash after:       $43,947.10  (Δ $-300.00)
 Inventory after:  $5,521.25
@@ -358,16 +343,15 @@ Cash before:      $43,947.10
 Inventory before: $5,521.25
 
 Response:
-Hello! Here is the quote for your assembly order (request received 2025-04-13):
+Hello! Here is your quote for the assembly (requested 2025-04-13):
 
 
-Items requiring follow-up:
-  · 500 × Standard copy paper: only 200 in stock; placed restock for 300 more (ETA 2025-04-17).
+Items needing your input:
+  · 500 × Standard copy paper: currently unavailable in the requested quantity. Earliest restock by 2025-04-17, OR we can swap to **A4 paper** which is in stock today — let us know which you prefer.
 
-Quoted total (after bulk discounts): $0.00.
-Earliest delivery commitment: n/a.
+We can't quote a final total yet because every line in this request needs a swap or a confirmation from you (see above). Reply with your choices and we'll send a finalised quote the same day.
 
-Quote rationale: pricing is computed from our published unit rates with a tiered bulk-discount ladder (2% from 100 units, scaling up to 15% at 10,000+ units). Where stock is insufficient we have already placed supplier restocks so we can honour the order on the listed ETA.
+Where an item is unavailable today, we have suggested an in-stock alternative or a next step so the order can move forward without delay.
 
 Cash after:       $43,935.10  (Δ $-12.00)
 Inventory after:  $5,521.25
@@ -381,17 +365,17 @@ Cash before:      $43,935.10
 Inventory before: $5,521.25
 
 Response:
-Hello! Here is the quote for your reception order (request received 2025-04-14):
+Hello! Here is your quote for the reception (requested 2025-04-14):
 
-  · 500 × Colored paper @ $0.10/unit = $50.00, less 5% bulk discount = $47.50
+  · 500 × Colored paper @ $0.10 = $50.00, less 5% bulk discount = $47.50
 
-Items requiring follow-up:
-  · 1000 × Standard copy paper: only 500 in stock; placed restock for 500 more (ETA 2025-04-18).
+Items needing your input:
+  · 1000 × Standard copy paper: currently unavailable in the requested quantity. Earliest restock by 2025-04-18, OR we can swap to **A4 paper** which is in stock today — let us know which you prefer.
 
-Quoted total (after bulk discounts): $47.50.
-Earliest delivery commitment: 2025-04-18.
+Quoted total (priced lines only): $47.50.
+Earliest delivery for the priced items: 2025-04-18.
 
-Quote rationale: pricing is computed from our published unit rates with a tiered bulk-discount ladder (2% from 100 units, scaling up to 15% at 10,000+ units). Where stock is insufficient we have already placed supplier restocks so we can honour the order on the listed ETA.
+Bulk discounts in this quote are applied automatically once a line crosses 100, 500, 1 000, 5 000 or 10 000 units. Where an item is unavailable today, we have suggested an in-stock alternative or a next step so the order can move forward without delay.
 
 Cash after:       $43,962.60  (Δ $+27.50)
 Inventory after:  $5,471.25
@@ -405,14 +389,14 @@ Cash before:      $43,962.60
 Inventory before: $5,471.25
 
 Response:
-Hello! Here is the quote for your ceremony order (request received 2025-04-14):
+Hello! Here is your quote for the ceremony (requested 2025-04-14):
 
-  · 500 × Cardstock @ $0.15/unit = $75.00, less 5% bulk discount = $71.25
+  · 500 × Cardstock @ $0.15 = $75.00, less 5% bulk discount = $71.25
 
-Quoted total (after bulk discounts): $71.25.
-Earliest delivery commitment: 2025-04-18.
+Quoted total (priced lines only): $71.25.
+Earliest delivery for the priced items: 2025-04-18.
 
-Quote rationale: pricing is computed from our published unit rates with a tiered bulk-discount ladder (2% from 100 units, scaling up to 15% at 10,000+ units). Where stock is insufficient we have already placed supplier restocks so we can honour the order on the listed ETA.
+Bulk discounts in this quote are applied automatically once a line crosses 100, 500, 1 000, 5 000 or 10 000 units.
 
 Cash after:       $44,033.85  (Δ $+71.25)
 Inventory after:  $5,396.25
@@ -426,18 +410,17 @@ Cash before:      $44,033.85
 Inventory before: $5,396.25
 
 Response:
-Hello! Here is the quote for your exhibition order (request received 2025-04-15):
+Hello! Here is your quote for the exhibition (requested 2025-04-15):
 
 
-Items requiring follow-up:
-  · 2000 × Glossy paper: only 400 in stock; placed restock for 1600 more (ETA 2025-04-22).
-  · 1500 × Matte paper: only 500 in stock; placed restock for 1000 more (ETA 2025-04-19).
-  · 1000 × Cardstock: out of stock; placed a supplier restock (+1000 units, ETA 2025-04-19).
+Items needing your input:
+  · 2000 × Glossy paper: currently unavailable in the requested quantity. Earliest restock by 2025-04-22, OR we can swap to **A4 paper** which is in stock today — let us know which you prefer.
+  · 1500 × Matte paper: currently unavailable in the requested quantity. Earliest restock by 2025-04-19, OR we can swap to **A4 paper** which is in stock today — let us know which you prefer.
+  · 1000 × Cardstock: currently unavailable in the requested quantity. Earliest restock by 2025-04-19, OR we can swap to **A4 paper** which is in stock today — let us know which you prefer.
 
-Quoted total (after bulk discounts): $0.00.
-Earliest delivery commitment: n/a.
+We can't quote a final total yet because every line in this request needs a swap or a confirmation from you (see above). Reply with your choices and we'll send a finalised quote the same day.
 
-Quote rationale: pricing is computed from our published unit rates with a tiered bulk-discount ladder (2% from 100 units, scaling up to 15% at 10,000+ units). Where stock is insufficient we have already placed supplier restocks so we can honour the order on the listed ETA.
+Where an item is unavailable today, we have suggested an in-stock alternative or a next step so the order can move forward without delay.
 
 Cash after:       $43,383.85  (Δ $-650.00)
 Inventory after:  $5,866.25
@@ -451,14 +434,7 @@ Cash before:      $43,383.85
 Inventory before: $5,866.25
 
 Response:
-Hello! Here is the quote for your concert order (request received 2025-04-17):
-
-  · Could not detect specific items/quantities; please provide exact item names and quantities for a precise quote.
-
-Quoted total (after bulk discounts): $0.00.
-Earliest delivery commitment: n/a.
-
-Quote rationale: pricing is computed from our published unit rates with a tiered bulk-discount ladder (2% from 100 units, scaling up to 15% at 10,000+ units). Where stock is insufficient we have already placed supplier restocks so we can honour the order on the listed ETA.
+Hello! Thank you for your enquiry for the concert on 2025-04-17. We weren't able to identify specific items and quantities in your message — could you reply with the exact items (and quantity per item) you'd like quoted?
 
 Cash after:       $43,383.85  (Δ $+0.00)
 Inventory after:  $5,866.25

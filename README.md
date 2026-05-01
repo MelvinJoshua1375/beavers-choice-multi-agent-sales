@@ -128,8 +128,8 @@ Expect roughly 1-3 minutes against `gpt-4o-mini` on the Vocareum proxy.
 | All seven helpers used in tool definitions | helper-function table above (verified by `grep`) |
 | Evaluated on `quote_requests_sample.csv`, results in `test_results.csv` | `run_test_scenarios()` writes that file |
 | ≥3 requests change cash balance | `test_results.csv` shows 16 cash deltas |
-| ≥3 quote requests successfully fulfilled | 8 of 20 fulfilled |
-| Some unfulfilled requests with reasons | 12 of 20 unfulfilled, each with a `reason` |
+| ≥3 quote requests successfully fulfilled | 5 fully fulfilled (every line invoiced) |
+| Some unfulfilled requests with reasons | 15 partially / not fulfilled, every row carries a `reason` AND an in-catalogue alternative or a contact-sales next-step |
 | Reflection: architecture explanation | `reflection.md` §1 |
 | Reflection: evaluation of `test_results.csv` | `reflection.md` §2 |
 | Reflection: ≥2 improvement suggestions | `reflection.md` §3 |
